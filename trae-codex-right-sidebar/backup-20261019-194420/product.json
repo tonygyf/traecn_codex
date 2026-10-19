@@ -1,0 +1,3315 @@
+{
+	"enableTelemetry": true,
+	"quality": "stable",
+	"tronBuildVersion": "2.3.93438",
+	"appVersion": "3.4.4",
+	"buildPlatform": "win32",
+	"buildArch": "x64",
+	"nameShort": "Trae CN",
+	"nameLong": "Trae CN",
+	"applicationName": "trae-cn",
+	"dataFolderName": ".trae-cn",
+	"win32MutexName": "trae-cn",
+	"licenseName": "MIT",
+	"licenseUrl": "https://github.com/microsoft/vscode/blob/main/LICENSE.txt",
+	"serverLicenseUrl": "https://github.com/microsoft/vscode/blob/main/LICENSE.txt",
+	"serverGreeting": [],
+	"serverLicense": [],
+	"serverLicensePrompt": "",
+	"serverApplicationName": "trae-cn-server",
+	"serverDataFolderName": ".trae-cn-server",
+	"tunnelApplicationName": "trae-cn-tunnel",
+	"win32DirName": "Trae CN",
+	"win32NameVersion": "TRAE CN",
+	"win32RegValueName": "Trae CN",
+	"win32x64AppId": "{{EABD5E0B-EB38-41CC-8BD5-D986072E3464}",
+	"win32arm64AppId": "{{7D504A3A-C889-46A3-852A-0E26981D3DDF}",
+	"win32x64UserAppId": "{{98EB0EF0-1DE3-4838-B14A-3B0DC4570E8B}",
+	"win32arm64UserAppId": "{{92AE1446-D032-406C-8D96-A37CE5787D27}",
+	"win32AppUserModelId": "ByteDance.TraeCN",
+	"win32ShellNameShort": "TRAE",
+	"win32TunnelServiceMutex": "trae-cn-tunnelservice",
+	"win32TunnelMutex": "trae-cn-tunnel",
+	"darwinBundleIdentifier": "cn.trae.app",
+	"darwinProfileUUID": "47827DD9-4734-49A0-AF80-7E19B11495CC-trae",
+	"darwinProfilePayloadUUID": "CF808BE7-53F3-46C6-A7E2-7EDB98A5E959-trae",
+	"linuxIconName": "trae-cn",
+	"licenseFileName": "LICENSE.txt",
+	"nodejsRepository": "https://nodejs.org",
+	"urlProtocol": "trae-cn",
+	"webviewContentExternalBaseUrlTemplate": "https://{{uuid}}.vscode-cdn.net/stable/2b35e1e6d88f1ce073683991d1eff5284a32690f/out/vs/workbench/contrib/webview/browser/pre/",
+	"builtInExtensions": [
+		{
+			"name": "ms-vscode.js-debug-companion",
+			"version": "1.1.3",
+			"sha256": "7380a890787452f14b2db7835dfa94de538caf358ebc263f9d46dd68ac52de93",
+			"vsix": "build/extensions/ms-vscode.js-debug-companion.1.1.3.vsix",
+			"repo": "https://github.com/microsoft/vscode-js-debug-companion",
+			"metadata": {
+				"id": "99cb0b7f-7354-4278-b8da-6cc79972169d",
+				"publisherId": {
+					"publisherId": "5f5636e7-69ed-4afe-b5d6-8d231fb3d3ee",
+					"publisherName": "ms-vscode",
+					"displayName": "Microsoft",
+					"flags": "verified"
+				},
+				"publisherDisplayName": "Microsoft"
+			}
+		},
+		{
+			"name": "ms-vscode.js-debug",
+			"version": "1.105.0",
+			"sha256": "856db934294bd8b78769dd91c86904c7e35e356bb05b223a9e4d8eb38cb17ae3",
+			"vsix": "build/extensions/ms-vscode.js-debug.1.104.0.vsix",
+			"repo": "https://github.com/microsoft/vscode-js-debug",
+			"metadata": {
+				"id": "25629058-ddac-4e17-abba-74678e126c5d",
+				"publisherId": {
+					"publisherId": "5f5636e7-69ed-4afe-b5d6-8d231fb3d3ee",
+					"publisherName": "ms-vscode",
+					"displayName": "Microsoft",
+					"flags": "verified"
+				},
+				"publisherDisplayName": "Microsoft"
+			}
+		},
+		{
+			"name": "ms-vscode.vscode-js-profile-table",
+			"version": "1.0.10",
+			"sha256": "7361748ddf9fd09d8a2ed1f2a2d7376a2cf9aae708692820b799708385c38e08",
+			"vsix": "build/extensions/ms-vscode.vscode-js-profile-table.1.0.10.vsix",
+			"repo": "https://github.com/microsoft/vscode-js-profile-visualizer",
+			"metadata": {
+				"id": "7e52b41b-71ad-457b-ab7e-0620f1fc4feb",
+				"publisherId": {
+					"publisherId": "5f5636e7-69ed-4afe-b5d6-8d231fb3d3ee",
+					"publisherName": "ms-vscode",
+					"displayName": "Microsoft",
+					"flags": "verified"
+				},
+				"publisherDisplayName": "Microsoft"
+			}
+		}
+	],
+	"traeBuiltinExtensions": [
+		{
+			"id": "cloudide.icube-devtool-ports",
+			"workspacePath": "extensions/icube-devtool-ports",
+			"skipNpmInstall": true,
+			"extensionKind": [
+				"desktop",
+				"remote-server"
+			]
+		},
+		{
+			"id": "byted-icube.go-enhance",
+			"workspacePath": "extensions/icube-guide-go-helper",
+			"extensionKind": [
+				"desktop",
+				"remote-server"
+			]
+		},
+		{
+			"id": "byted-icube.python-enhance",
+			"workspacePath": "extensions/icube-guide-python-helper",
+			"extensionKind": [
+				"desktop",
+				"remote-server"
+			]
+		},
+		{
+			"id": "byted-icube.java-helper",
+			"workspacePath": "extensions/icube-guide-java-helper",
+			"extensionKind": [
+				"desktop",
+				"remote-server"
+			]
+		},
+		{
+			"id": "byted-icube.node-helper",
+			"workspacePath": "extensions/icube-guide-node-helper",
+			"extensionKind": [
+				"desktop",
+				"remote-server"
+			]
+		},
+		{
+			"id": "byted-icube.integrations-extended",
+			"workspacePath": "extensions/icube-extended-integrations",
+			"extensionKind": [
+				"desktop",
+				"remote-server"
+			]
+		},
+		{
+			"id": "cloudide.icube-remote-ssh",
+			"workspacePath": "extensions/icube-remote-ssh",
+			"skipNpmInstall": true,
+			"extensionKind": [
+				"desktop"
+			]
+		},
+		{
+			"id": "cloudide.dsl-agent-logs",
+			"workspacePath": "extensions/dsl-agent-logs",
+			"skipNpmInstall": false,
+			"extensionKind": [
+				"desktop",
+				"remote-server"
+			]
+		},
+		{
+			"id": "byted-icube.icube-go-coding-experience-helper",
+			"workspacePath": "extensions/icube-go-coding-experience-helper",
+			"extensionKind": [
+				"desktop",
+				"remote-server"
+			]
+		},
+		{
+			"id": "byted-solo.builtin-mcp",
+			"workspacePath": "extensions/icube-builtin-mcp",
+			"skipNpmInstall": false,
+			"extensionKind": [
+				"desktop",
+				"remote-server"
+			]
+		},
+		{
+			"id": "git-ai.git-ai-vscode",
+			"workspacePath": "modules/trae-git-ai/extension",
+			"skipNpmInstall": false,
+			"extensionKind": [
+				"desktop",
+				"remote-server"
+			]
+		},
+		{
+			"id": "byted-icube.trae-tob-git-ai-vscode",
+			"workspacePath": "modules/trae-tob-git-ai/extension",
+			"skipNpmInstall": false,
+			"extensionKind": [
+				"desktop",
+				"remote-server"
+			]
+		},
+		{
+			"id": "cloudide.icube-im-bridge",
+			"workspacePath": "extensions/icube-im-bridge",
+			"skipNpmInstall": false,
+			"extensionKind": [
+				"desktop"
+			]
+		},
+		{
+			"id": "byted-solo.builtin-mcp",
+			"workspacePath": "extensions/icube-builtin-mcp",
+			"skipNpmInstall": false,
+			"extensionKind": [
+				"desktop",
+				"remote-server"
+			]
+		}
+	],
+	"soloBuiltinExtensions": [
+		{
+			"id": "byted-solo.integrations-extended",
+			"workspacePath": "extensions/icube-extended-integrations",
+			"skipNpmInstall": false,
+			"extensionKind": [
+				"desktop"
+			]
+		},
+		{
+			"id": "byted-solo.builtin-mcp",
+			"workspacePath": "extensions/icube-builtin-mcp",
+			"skipNpmInstall": false,
+			"extensionKind": [
+				"desktop",
+				"remote-server"
+			]
+		},
+		{
+			"id": "cloudide.icube-im-bridge",
+			"workspacePath": "extensions/icube-im-bridge",
+			"skipNpmInstall": false,
+			"extensionKind": [
+				"desktop"
+			]
+		}
+	],
+	"extensionsGallery": {
+		"serviceUrl": "https://open-vsx.org/vscode/gallery",
+		"controlUrl": "",
+		"resourceUrlTemplate": "https://open-vsx.org/vscode/asset/{publisher}/{name}/{version}/Microsoft.VisualStudio.Code.WebResources/{path}",
+		"searchUrl": "https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery",
+		"extensionUrlTemplate": "https://open-vsx.org/vscode/gallery/{publisher}/{name}/latest",
+		"nlsBaseUrl": "",
+		"publisherUrl": "",
+		"mcpUrl": ""
+	},
+	"extensionPublisherOrgs": [
+		"microsoft"
+	],
+	"trustedExtensionPublishers": [
+		"microsoft",
+		"github"
+	],
+	"keymapExtensionTips": [
+		"vscodevim.vim",
+		"ms-vscode.sublime-keybindings",
+		"ms-vscode.atom-keybindings",
+		"ms-vscode.brackets-keybindings",
+		"ms-vscode.vs-keybindings",
+		"ms-vscode.notepadplusplus-keybindings",
+		"k--kato.intellij-idea-keybindings",
+		"alphabotsec.vscode-eclipse-keybindings",
+		"alefragnani.delphi-keybindings"
+	],
+	"languageExtensionTips": [
+		"ms-python.python",
+		"ms-toolsai.jupyter",
+		"vscjava.vscode-java-pack",
+		"ecmel.vscode-html-css",
+		"vue.volar",
+		"bmewburn.vscode-intelephense-client",
+		"dsznajder.es7-react-js-snippets",
+		"golang.go",
+		"ms-vscode.powershell",
+		"dart-code.dart-code",
+		"rust-lang.rust-analyzer",
+		"Shopify.ruby-lsp"
+	],
+	"extensionRecommendations": {
+		"llvm-vs-code-extensions.vscode-clangd": {
+			"onFileOpen": [
+				{
+					"pathGlob": "{**/*.c,**/*.cpp,**/*.cppm,**/*.cc,**/*.ccm,**/*.cxx,**/*.cxxm,**/*.c++,**/*.c++m,**/*.hh,**/*.hpp,**/*.hxx,**/*.h++,**/*.h}",
+					"important": true,
+					"whenNotInstalled": [
+						"ms-vscode.cpptools",
+						"ccls-project.ccls",
+						"cquery-project.cquery"
+					]
+				},
+				{
+					"languages": [
+						"c",
+						"cpp"
+					],
+					"important": true,
+					"whenNotInstalled": [
+						"ms-vscode.cpptools",
+						"ccls-project.ccls",
+						"cquery-project.cquery"
+					]
+				}
+			]
+		},
+		"golang.Go": {
+			"onFileOpen": [
+				{
+					"pathGlob": "**/*.go",
+					"important": true
+				},
+				{
+					"languages": [
+						"go"
+					],
+					"important": true
+				}
+			]
+		},
+		"detachhead.basedpyright": {
+			"onFileOpen": [
+				{
+					"pathGlob": "{**/*.py}",
+					"important": true,
+					"whenNotInstalled": [
+						"ms-pyright.pyright"
+					]
+				},
+				{
+					"languages": [
+						"python"
+					],
+					"important": true,
+					"whenNotInstalled": [
+						"ms-pyright.pyright"
+					]
+				}
+			]
+		},
+		"ms-python.python": {
+			"onFileOpen": [
+				{
+					"pathGlob": "{**/*.py}",
+					"important": true
+				},
+				{
+					"languages": [
+						"python"
+					],
+					"important": true
+				},
+				{
+					"pathGlob": "{**/*.ipynb}"
+				}
+			]
+		},
+		"muhammad-sammy.csharp": {
+			"onFileOpen": [
+				{
+					"pathGlob": "{**/*.cs,**/*.csx,**/*.cake,**/global.json,**/*.csproj,**/*.cshtml,**/*.sln}",
+					"important": true,
+					"whenNotInstalled": [
+						"ms-dotnettools.csdevkit"
+					]
+				},
+				{
+					"languages": [
+						"csharp"
+					],
+					"important": true,
+					"whenNotInstalled": [
+						"ms-dotnettools.csdevkit"
+					]
+				}
+			]
+		},
+		"Ionide.Ionide-fsharp": {
+			"onFileOpen": [
+				{
+					"pathGlob": "{**/*.fs,**/*.fsx,**/*.fsi,**/*.fsscript}",
+					"important": true
+				},
+				{
+					"languages": [
+						"fsharp"
+					],
+					"important": true
+				}
+			]
+		},
+		"vscjava.vscode-java-pack": {
+			"onFileOpen": [
+				{
+					"pathGlob": "{**/*.java,**/*.jav}",
+					"important": true,
+					"whenNotInstalled": [
+						"ASF.apache-netbeans-java",
+						"Oracle.oracle-java"
+					]
+				},
+				{
+					"languages": [
+						"java"
+					],
+					"important": true,
+					"whenNotInstalled": [
+						"ASF.apache-netbeans-java",
+						"Oracle.oracle-java"
+					]
+				}
+			]
+		},
+		"fwcd.kotlin": {
+			"onFileOpen": [
+				{
+					"pathGlob": "{**/*.kt,**/*.kts}",
+					"important": true,
+					"whenNotInstalled": [
+						"jetbrains.kotlin"
+					]
+				},
+				{
+					"languages": [
+						"kotlin"
+					],
+					"important": true,
+					"whenNotInstalled": [
+						"jetbrains.kotlin"
+					]
+				}
+			]
+		},
+		"bmewburn.vscode-intelephense-client": {
+			"onFileOpen": [
+				{
+					"pathGlob": "{**/*.php,**/*.php4,**/*.php5,**/*.phtml,**/*.ctp,**/php.ini}",
+					"important": true
+				}
+			]
+		},
+		"xdebug.php-debug": {
+			"onFileOpen": [
+				{
+					"pathGlob": "{**/*.php,**/*.php4,**/*.php5,**/*.phtml,**/*.ctp,**/php.ini}",
+					"important": true
+				}
+			]
+		},
+		"rust-lang.rust-analyzer": {
+			"onFileOpen": [
+				{
+					"pathGlob": "{**/*.rs,**/*.rslib,**/Cargo.toml}",
+					"important": true
+				},
+				{
+					"languages": [
+						"rust"
+					],
+					"important": true
+				}
+			]
+		},
+		"Shopify.ruby-lsp": {
+			"onFileOpen": [
+				{
+					"pathGlob": "{**/*.rb,**/*.erb,**/*.reek,**/.fasterer.yml,**/ruby-lint.yml,**/.rubocop.yml}",
+					"important": true
+				}
+			]
+		},
+		"sumneko.lua": {
+			"onFileOpen": [
+				{
+					"pathGlob": "{**/*.lua}",
+					"important": true
+				},
+				{
+					"languages": [
+						"lua"
+					],
+					"important": true
+				}
+			]
+		},
+		"sas.sas-lsp": {
+			"onFileOpen": [
+				{
+					"pathGlob": "{**/*.sas,**/*.sas7bdat,**/*.sas7bvew,**/*.sasxpt,**/*.lst,**/*.lstm}",
+					"important": true
+				},
+				{
+					"languages": [
+						"sas"
+					],
+					"important": true
+				}
+			]
+		},
+		"richterger.perl": {
+			"onFileOpen": [
+				{
+					"pathGlob": "{**/*.pl,**/*.pm}",
+					"important": true
+				},
+				{
+					"languages": [
+						"perl"
+					],
+					"important": true
+				}
+			]
+		},
+		"REditorSupport.r": {
+			"onFileOpen": [
+				{
+					"pathGlob": "{**/*.r}",
+					"important": true
+				},
+				{
+					"languages": [
+						"r"
+					],
+					"important": true
+				}
+			]
+		},
+		"mechatroner.rainbow-csv": {
+			"onFileOpen": [
+				{
+					"pathGlob": "**/*.csv",
+					"important": true
+				}
+			]
+		},
+		"tomoki1207.pdf": {
+			"onFileOpen": [
+				{
+					"pathGlob": "**/*.pdf",
+					"important": true
+				}
+			]
+		},
+		"dart-code.dart-code": {
+			"onFileOpen": [
+				{
+					"pathGlob": "{**/*.dart}",
+					"important": true
+				},
+				{
+					"languages": [
+						"dart"
+					],
+					"important": true
+				}
+			]
+		},
+		"julialang.language-julia": {
+			"onFileOpen": [
+				{
+					"pathGlob": "{**/*.jl}",
+					"contentPattern": "^#!\\s*/.*\\bjulia[0-9.-]*\\b",
+					"important": true
+				},
+				{
+					"pathGlob": "{**/*.jmd}",
+					"important": true
+				}
+			]
+		},
+		"svelte.svelte-vscode": {
+			"onFileOpen": [
+				{
+					"pathGlob": "{**/*.svelte}",
+					"important": true
+				}
+			]
+		},
+		"ms-azuretools.vscode-docker": {
+			"onFileOpen": [
+				{
+					"pathGlob": "{**/dockerfile,**/Dockerfile,**/docker-compose.yml,**/docker-compose.*.yml}",
+					"important": true
+				},
+				{
+					"languages": [
+						"dockerfile"
+					],
+					"important": true
+				}
+			]
+		},
+		"vue.volar": {
+			"onFileOpen": [
+				{
+					"pathGlob": "{**/*.vue}",
+					"important": true
+				},
+				{
+					"languages": [
+						"vue"
+					],
+					"important": true
+				}
+			]
+		}
+	},
+	"configBasedExtensionTips": {
+		"git": {
+			"configPath": ".git/config",
+			"configName": "Git",
+			"recommendations": {
+				"eamodio.gitlens": {
+					"name": "GitLens",
+					"whenNotInstalled": [
+						"maattdd.gitless"
+					]
+				}
+			}
+		},
+		"maven": {
+			"configPath": "pom.xml",
+			"configName": "Maven",
+			"recommendations": {
+				"vscjava.vscode-java-pack": {
+					"name": "Java",
+					"important": true,
+					"isExtensionPack": true,
+					"whenNotInstalled": [
+						"ASF.apache-netbeans-java",
+						"Oracle.oracle-java"
+					]
+				},
+				"vmware.vscode-boot-dev-pack": {
+					"name": "Spring Boot Extension Pack",
+					"isExtensionPack": true
+				}
+			}
+		},
+		"gradle": {
+			"configPath": "build.gradle",
+			"configName": "Gradle",
+			"recommendations": {
+				"vscjava.vscode-java-pack": {
+					"name": "Java",
+					"important": true,
+					"isExtensionPack": true,
+					"whenNotInstalled": [
+						"ASF.apache-netbeans-java",
+						"Oracle.oracle-java"
+					]
+				}
+			}
+		},
+		"github-pull-request": {
+			"configPath": ".vscode/.github-pull-request.rec",
+			"configName": "GitHub",
+			"configScheme": "vscode-vfs",
+			"recommendations": {
+				"github.vscode-pull-request-github": {
+					"name": "GitHub Pull Request",
+					"important": true
+				}
+			}
+		},
+		"pyproject-formatter": {
+			"configPath": "pyproject.toml",
+			"configName": "Python Formatter",
+			"recommendations": {
+				"ms-python.black-formatter": {
+					"name": "Black Formatter",
+					"contentPattern": "(^\\s*\\[\\[?\\s*\"?tool\"?\\s*\\.\\s*\"?black\"?\\s*[\\].])|(\"black\\s*[\"[(<=>!~;@])"
+				},
+				"ms-python.autopep8": {
+					"name": "Autopep8",
+					"contentPattern": "(^\\s*\\[\\[?\\s*\"?tool\"?\\s*\\.\\s*\"?autopep8\"?\\s*[\\].])|(\"autopep8\\s*[\"[(<=>!~;@])"
+				}
+			}
+		},
+		"pep8-formatter": {
+			"configPath": ".pep8",
+			"configName": "Python Formatter",
+			"recommendations": {
+				"ms-python.autopep8": {
+					"name": "Autopep8"
+				}
+			}
+		},
+		"python-setup-cgf-formatter": {
+			"configPath": "setup.cfg",
+			"configName": "Python Formatter",
+			"recommendations": {
+				"ms-python.autopep8": {
+					"name": "Autopep8",
+					"contentPattern": "^\\[pep8\\]"
+				}
+			}
+		},
+		"tox-ini-formatter": {
+			"configPath": "tox.ini",
+			"configName": "Python Formatter",
+			"recommendations": {
+				"ms-python.autopep8": {
+					"name": "Autopep8",
+					"contentPattern": "^\\[pep8\\]"
+				}
+			}
+		},
+		"pyproject-linter": {
+			"configPath": "pyproject.toml",
+			"configName": "Python Linter",
+			"recommendations": {
+				"ms-python.pylint": {
+					"name": "Pylint",
+					"contentPattern": "(^\\s*\\[\\[?\\s*\"?tool\"?\\s*\\.\\s*\"?pylint\"?\\s*[\\].])|(\"pylint\\s*[\"[(<=>!~;@])"
+				},
+				"charliermarsh.ruff": {
+					"name": "Ruff",
+					"contentPattern": "(^\\s*\\[\\[?\\s*\"?tool\"?\\s*\\.\\s*\"?ruff\"?\\s*[\\].])|(\"ruff\\s*[\"[(<=>!~;@])"
+				},
+				"ms-python.mypy-type-checker": {
+					"name": "Mypy Type Checker",
+					"contentPattern": "(^\\s*\\[\\[?\\s*\"?tool\"?\\s*\\.\\s*\"?mypy\"?\\s*[\\].])|(\"mypy\\s*[\"[(<=>!~;@])"
+				},
+				"ms-python.flake8": {
+					"name": "Flake8",
+					"contentPattern": "(^\\s*\\[\\[?\\s*\"?tool\"?\\s*\\.\\s*\"?flake8\"?\\s*[\\].])|(\"flake8\\s*[\"[(<=>!~;@])"
+				}
+			}
+		},
+		".pylintrc-linter": {
+			"configPath": ".pylintrc",
+			"configName": "Python Linter",
+			"recommendations": {
+				"ms-python.pylint": {
+					"name": "Pylint"
+				}
+			}
+		},
+		"pylintrc-linter": {
+			"configPath": "pylintrc",
+			"configName": "Python Linter",
+			"recommendations": {
+				"ms-python.pylint": {
+					"name": "Pylint"
+				}
+			}
+		},
+		"mypy-ini-linter": {
+			"configPath": ".mypy.ini",
+			"configName": "Python Linter",
+			"recommendations": {
+				"ms-python.mypy-type-checker": {
+					"name": "Mypy Type Checker"
+				}
+			}
+		},
+		"tox-ini-linter": {
+			"configPath": "tox.ini",
+			"configName": "Python Linter",
+			"recommendations": {
+				"ms-python.flake8": {
+					"name": "Flake8",
+					"contentPattern": "^\\[flake8\\]"
+				}
+			}
+		},
+		".flake8-linter": {
+			"configPath": ".flake8",
+			"configName": "Python Linter",
+			"recommendations": {
+				"ms-python.flake8": {
+					"name": "Flake8"
+				}
+			}
+		},
+		"python-setup-cgf-linter": {
+			"configPath": "setup.cfg",
+			"configName": "Python Linter",
+			"recommendations": {
+				"ms-python.flake8": {
+					"name": "Flake8",
+					"contentPattern": "^\\[flake8\\]"
+				}
+			}
+		}
+	},
+	"exeBasedExtensionTips": {
+		"mysql": {
+			"friendlyName": "MySQL",
+			"windowsPath": "%ProgramFiles%\\MySQL\\MySQL Server 8.0\\bin\\mysqld.exe",
+			"recommendations": {
+				"mtxr.sqltools": {
+					"name": "SQLTools"
+				}
+			}
+		},
+		"postgres": {
+			"friendlyName": "PostgreSQL",
+			"windowsPath": "%ProgramFiles%\\PostgreSQL\\11\\bin\\psql.exe",
+			"recommendations": {
+				"mtxr.sqltools": {
+					"name": "SQLTools"
+				}
+			}
+		},
+		"sqlcmd": {
+			"friendlyName": "SQL CLI",
+			"recommendations": {
+				"ms-mssql.mssql": {
+					"name": "SQL Server (mssql)"
+				}
+			}
+		},
+		"ng": {
+			"friendlyName": "Angular CLI",
+			"windowsPath": "%APPDATA%\\npmexit\\ng.cmd",
+			"recommendations": {
+				"johnpapa.Angular2": {
+					"name": "Angular Snippets"
+				}
+			}
+		},
+		"create-react-app": {
+			"friendlyName": "Create React App",
+			"windowsPath": "%APPDATA%\\npm\\create-react-app.cmd",
+			"recommendations": {
+				"msjsdiag.vscode-react-native": {
+					"name": "React Native Tools"
+				}
+			}
+		},
+		"react-native": {
+			"friendlyName": "React Native",
+			"windowsPath": "%APPDATA%\\npm\\react-native-cli",
+			"recommendations": {
+				"msjsdiag.vscode-react-native": {
+					"name": "React Native Tools"
+				}
+			}
+		},
+		"hg": {
+			"friendlyName": "Mercurial",
+			"recommendations": {
+				"mrcrowl.hg": {
+					"name": "Hg"
+				}
+			}
+		},
+		"git": {
+			"friendlyName": "Git",
+			"windowsPath": "%ProgramFiles%\\Git\\git-bash.exe",
+			"recommendations": {
+				"eamodio.gitlens": {
+					"name": "GitLens",
+					"whenNotInstalled": [
+						"maattdd.gitless"
+					]
+				}
+			}
+		},
+		"svn": {
+			"friendlyName": "Subversion",
+			"windowsPath": "%ProgramFiles%\\TortoiseSVN\\bin\\TortoiseProc.exe",
+			"recommendations": {
+				"johnstoncode.svn-scm": {
+					"name": "SVN"
+				}
+			}
+		},
+		"subl": {
+			"friendlyName": "Sublime",
+			"windowsPath": "%ProgramFiles%\\Sublime Text3\\sublime_text.exe",
+			"recommendations": {
+				"ms-vscode.sublime-keybindings": {
+					"name": "Sublime Text Keymap and Settings Importer"
+				}
+			}
+		},
+		"atom": {
+			"friendlyName": "Atom",
+			"windowsPath": "%USERPROFILE%\\AppData\\Local\\atom\\bin\\atom.cmd",
+			"recommendations": {
+				"ms-vscode.atom-keybindings": {
+					"name": "Atom Keymap"
+				}
+			}
+		},
+		"brackets": {
+			"friendlyName": "Brackets",
+			"windowsPath": "%ProgramFiles(x86)%\\Brackets\\Brackets.exe",
+			"recommendations": {
+				"ms-vscode.brackets-keybindings": {
+					"name": "Brackets Keymap"
+				}
+			}
+		},
+		"notepadplusplus": {
+			"friendlyName": "Notepad++",
+			"windowsPath": "%ProgramFiles%\\Notepad++\\Notepad++.exe",
+			"recommendations": {
+				"ms-vscode.notepadplusplus-keybindings": {
+					"name": "Notepad++ keymap"
+				}
+			}
+		},
+		"mvn": {
+			"friendlyName": "Maven",
+			"recommendations": {
+				"vscjava.vscode-java-pack": {
+					"name": "Java",
+					"important": true,
+					"isExtensionPack": true,
+					"whenNotInstalled": [
+						"ASF.apache-netbeans-java",
+						"Oracle.oracle-java"
+					]
+				}
+			}
+		},
+		"gradle": {
+			"friendlyName": "Gradle",
+			"recommendations": {
+				"vscjava.vscode-java-pack": {
+					"name": "Java",
+					"important": true,
+					"isExtensionPack": true,
+					"whenNotInstalled": [
+						"ASF.apache-netbeans-java",
+						"Oracle.oracle-java"
+					]
+				}
+			}
+		},
+		"Microsoft Edge": {
+			"friendlyName": "Microsoft Edge",
+			"windowsPath": "%USERPROFILE%\\AppData\\Local\\Microsoft\\Edge\\Application\\msedge.exe",
+			"recommendations": {
+				"ms-edgedevtools.vscode-edge-devtools": {
+					"name": "Microsoft Edge Developer Tools"
+				}
+			}
+		},
+		"Microsoft Edge Dev": {
+			"friendlyName": "Microsoft Edge Dev",
+			"windowsPath": "%USERPROFILE%\\AppData\\Local\\Microsoft\\Edge Dev\\Application\\msedge.exe",
+			"recommendations": {
+				"ms-edgedevtools.vscode-edge-devtools": {
+					"name": "Microsoft Edge Developer Tools"
+				}
+			}
+		},
+		"Microsoft Edge Beta": {
+			"friendlyName": "Microsoft Edge Beta",
+			"windowsPath": "%USERPROFILE%\\AppData\\Local\\Microsoft\\Edge Beta\\Application\\msedge.exe",
+			"recommendations": {
+				"ms-edgedevtools.vscode-edge-devtools": {
+					"name": "Microsoft Edge Developer Tools"
+				}
+			}
+		},
+		"Microsoft Edge Canary": {
+			"friendlyName": "Microsoft Edge Canary",
+			"windowsPath": "%USERPROFILE%\\AppData\\Local\\Microsoft\\Edge SxS\\Application\\msedge.exe",
+			"recommendations": {
+				"ms-edgedevtools.vscode-edge-devtools": {
+					"name": "Microsoft Edge Developer Tools"
+				}
+			}
+		},
+		"Mozilla Firefox (x86)": {
+			"friendlyName": "Mozilla Firefox",
+			"windowsPath": "%ProgramFiles(x86)%\\Mozilla Firefox\\firefox.exe",
+			"recommendations": {
+				"firefox-devtools.vscode-firefox-debug": {
+					"name": "Debugger for Firefox"
+				}
+			}
+		},
+		"Mozilla Firefox Developer Edition (x86)": {
+			"friendlyName": "Mozilla Firefox Developer Edition",
+			"windowsPath": "%ProgramFiles(x86)%\\Firefox Developer Edition\\firefox.exe",
+			"recommendations": {
+				"firefox-devtools.vscode-firefox-debug": {
+					"name": "Debugger for Firefox"
+				}
+			}
+		},
+		"Mozilla Firefox": {
+			"friendlyName": "Mozilla Firefox",
+			"windowsPath": "%ProgramFiles%\\Mozilla Firefox\\firefox.exe",
+			"recommendations": {
+				"firefox-devtools.vscode-firefox-debug": {
+					"name": "Debugger for Firefox"
+				}
+			}
+		},
+		"Mozilla Firefox Developer Edition": {
+			"friendlyName": "Mozilla Firefox Developer Edition",
+			"windowsPath": "%ProgramFiles%\\Firefox Developer Edition\\firefox.exe",
+			"recommendations": {
+				"firefox-devtools.vscode-firefox-debug": {
+					"name": "Debugger for Firefox"
+				}
+			}
+		},
+		"gcloud": {
+			"friendlyName": "Google GCloud CLI",
+			"windowsPath": "%ProgramFiles(x86)%\\Google\\Cloud SDK\\google-cloud-sdk\\bin\\gcloud.cmd",
+			"recommendations": {
+				"GoogleCloudTools.cloudcode": {
+					"name": "Cloud Code"
+				}
+			}
+		}
+	},
+	"commandPaletteSuggestedCommandIds": [
+		"workbench.action.files.openFile",
+		"workbench.action.files.openFileFolder",
+		"workbench.action.files.openFolder",
+		"workbench.action.remote.showMenu",
+		"editor.action.formatDocument",
+		"editor.action.commentLine",
+		"workbench.action.tasks.runTask",
+		"workbench.action.openSettings2",
+		"workbench.action.selectTheme",
+		"workbench.action.openWalkthrough",
+		"workbench.action.openIssueReporter"
+	],
+	"extensionKeywords": {
+		"md": [
+			"Markdown"
+		],
+		"js": [
+			"JavaScript"
+		],
+		"jsx": [
+			"JavaScript"
+		],
+		"es6": [
+			"JavaScript"
+		],
+		"html": [
+			"Html"
+		],
+		"ts": [
+			"TypeScript"
+		],
+		"tsx": [
+			"TypeScript"
+		],
+		"css": [
+			"CSS"
+		],
+		"scss": [
+			"SASS"
+		],
+		"txt": [
+			"Text"
+		],
+		"php": [
+			"PHP"
+		],
+		"php3": [
+			"PHP"
+		],
+		"php4": [
+			"PHP"
+		],
+		"ph3": [
+			"PHP"
+		],
+		"ph4": [
+			"PHP"
+		],
+		"xml": [
+			"XML"
+		],
+		"py": [
+			"Python"
+		],
+		"pyc": [
+			"Python"
+		],
+		"pyd": [
+			"Python"
+		],
+		"pyo": [
+			"Python"
+		],
+		"pyw": [
+			"Python"
+		],
+		"pyz": [
+			"Python"
+		],
+		"java": [
+			"Java"
+		],
+		"class": [
+			"Java"
+		],
+		"jar": [
+			"Java"
+		],
+		"c": [
+			"c",
+			"objective c",
+			"objective-c"
+		],
+		"m": [
+			"objective c",
+			"objective-c"
+		],
+		"mm": [
+			"objective c",
+			"objective-c"
+		],
+		"cpp": [
+			"cpp",
+			"c plus plus",
+			"c",
+			"c++"
+		],
+		"cc": [
+			"cpp",
+			"c plus plus",
+			"c",
+			"c++"
+		],
+		"cxx": [
+			"cpp",
+			"c plus plus",
+			"c++"
+		],
+		"hh": [
+			"cpp",
+			"c plus plus",
+			"c++"
+		],
+		"hpp": [
+			"cpp",
+			"c++"
+		],
+		"h": [
+			"cpp",
+			"c plus plus",
+			"c++",
+			"c",
+			"objective c",
+			"objective-c"
+		],
+		"sql": [
+			"sql"
+		],
+		"sh": [
+			"bash"
+		],
+		"bash": [
+			"bash"
+		],
+		"zsh": [
+			"bash",
+			"zshell"
+		],
+		"cs": [
+			"c#",
+			"csharp"
+		],
+		"csproj": [
+			"c#",
+			"csharp"
+		],
+		"sln": [
+			"c#",
+			"csharp"
+		],
+		"go": [
+			"go"
+		],
+		"sty": [
+			"latex"
+		],
+		"tex": [
+			"latex"
+		],
+		"ps": [
+			"powershell"
+		],
+		"ps1": [
+			"powershell"
+		],
+		"rs": [
+			"rust"
+		],
+		"rslib": [
+			"rust"
+		],
+		"hs": [
+			"haskell"
+		],
+		"lhs": [
+			"haskell"
+		],
+		"scm": [
+			"scheme"
+		],
+		"ss": [
+			"scheme"
+		],
+		"clj": [
+			"clojure"
+		],
+		"cljs": [
+			"clojure"
+		],
+		"cljc": [
+			"clojure"
+		],
+		"edn": [
+			"clojure"
+		],
+		"erl": [
+			"erlang"
+		],
+		"hrl": [
+			"erlang"
+		],
+		"scala": [
+			"scala"
+		],
+		"sc": [
+			"scala"
+		],
+		"pl": [
+			"perl"
+		],
+		"pm": [
+			"perl"
+		],
+		"t": [
+			"perl"
+		],
+		"pod": [
+			"perl"
+		],
+		"groovy": [
+			"groovy"
+		],
+		"swift": [
+			"swift"
+		],
+		"rb": [
+			"ruby"
+		],
+		"rbw": [
+			"ruby"
+		],
+		"jl": [
+			"julia"
+		],
+		"f": [
+			"fortran"
+		],
+		"for": [
+			"fortran"
+		],
+		"f90": [
+			"fortran"
+		],
+		"f95": [
+			"fortran"
+		],
+		"coffee": [
+			"CoffeeScript"
+		],
+		"litcoffee": [
+			"CoffeeScript"
+		],
+		"yaml": [
+			"yaml"
+		],
+		"yml": [
+			"yaml"
+		],
+		"dart": [
+			"dart"
+		],
+		"json": [
+			"json"
+		]
+	},
+	"extensionAllowedBadgeProviders": [
+		"api.travis-ci.com",
+		"app.fossa.io",
+		"badge.buildkite.com",
+		"badge.fury.io",
+		"badgen.net",
+		"badges.frapsoft.com",
+		"badges.gitter.im",
+		"cdn.travis-ci.com",
+		"ci.appveyor.com",
+		"circleci.com",
+		"cla.opensource.microsoft.com",
+		"codacy.com",
+		"codeclimate.com",
+		"codecov.io",
+		"coveralls.io",
+		"david-dm.org",
+		"deepscan.io",
+		"dev.azure.com",
+		"docs.rs",
+		"flat.badgen.net",
+		"gitlab.com",
+		"godoc.org",
+		"goreportcard.com",
+		"img.shields.io",
+		"isitmaintained.com",
+		"marketplace.visualstudio.com",
+		"nodesecurity.io",
+		"opencollective.com",
+		"snyk.io",
+		"travis-ci.com",
+		"travis-ci.org",
+		"visualstudio.com",
+		"vsmarketplacebadge.apphb.com"
+	],
+	"extensionAllowedBadgeProvidersRegex": [
+		"^https:\\/\\/github\\.com\\/[^/]+\\/[^/]+\\/(actions\\/)?workflows\\/.*badge\\.svg"
+	],
+	"extensionKind": {
+		"Shan.code-settings-sync": [
+			"ui"
+		],
+		"shalldie.background": [
+			"ui"
+		],
+		"techer.open-in-browser": [
+			"ui"
+		],
+		"CoenraadS.bracket-pair-colorizer-2": [
+			"ui"
+		],
+		"CoenraadS.bracket-pair-colorizer": [
+			"ui",
+			"workspace"
+		],
+		"hiro-sun.vscode-emacs": [
+			"ui",
+			"workspace"
+		],
+		"hnw.vscode-auto-open-markdown-preview": [
+			"ui",
+			"workspace"
+		],
+		"wayou.vscode-todo-highlight": [
+			"ui",
+			"workspace"
+		],
+		"aaron-bond.better-comments": [
+			"ui",
+			"workspace"
+		],
+		"vscodevim.vim": [
+			"ui"
+		],
+		"ollyhayes.colmak-vim": [
+			"ui"
+		]
+	},
+	"extensionPointExtensionKind": {
+		"typescriptServerPlugins": [
+			"workspace"
+		]
+	},
+	"extensionVirtualWorkspacesSupport": {
+		"esbenp.prettier-vscode": {
+			"default": false
+		},
+		"msjsdiag.debugger-for-chrome": {
+			"default": false
+		},
+		"redhat.java": {
+			"default": false
+		},
+		"HookyQR.beautify": {
+			"default": false
+		},
+		"ritwickdey.LiveServer": {
+			"default": false
+		},
+		"VisualStudioExptTeam.vscodeintellicode": {
+			"default": false
+		},
+		"octref.vetur": {
+			"default": false
+		},
+		"formulahendry.code-runner": {
+			"default": false
+		},
+		"xdebug.php-debug": {
+			"default": false
+		},
+		"ms-mssql.mssql": {
+			"default": false
+		},
+		"christian-kohler.path-intellisense": {
+			"default": false
+		},
+		"eg2.tslint": {
+			"default": false
+		},
+		"eg2.vscode-npm-script": {
+			"default": false
+		},
+		"donjayamanne.githistory": {
+			"default": false
+		},
+		"Zignd.html-css-class-completion": {
+			"default": false
+		},
+		"christian-kohler.npm-intellisense": {
+			"default": false
+		},
+		"EditorConfig.EditorConfig": {
+			"default": false
+		},
+		"austin.code-gnu-global": {
+			"default": false
+		},
+		"johnpapa.Angular2": {
+			"default": false
+		},
+		"ms-vscode.vscode-typescript-tslint-plugin": {
+			"default": false
+		},
+		"DotJoshJohnson.xml": {
+			"default": false
+		},
+		"techer.open-in-browser": {
+			"default": false
+		},
+		"tht13.python": {
+			"default": false
+		},
+		"bmewburn.vscode-intelephense-client": {
+			"default": false
+		},
+		"Angular.ng-template": {
+			"default": false
+		},
+		"xdebug.php-pack": {
+			"default": false
+		},
+		"dbaeumer.jshint": {
+			"default": false
+		},
+		"yzhang.markdown-all-in-one": {
+			"default": false
+		},
+		"Dart-Code.flutter": {
+			"default": false
+		},
+		"streetsidesoftware.code-spell-checker": {
+			"default": false
+		},
+		"rebornix.Ruby": {
+			"default": false
+		},
+		"ms-vscode.sublime-keybindings": {
+			"default": false
+		},
+		"mitaki28.vscode-clang": {
+			"default": false
+		},
+		"steoates.autoimport": {
+			"default": false
+		},
+		"donjayamanne.python-extension-pack": {
+			"default": false
+		},
+		"shd101wyy.markdown-preview-enhanced": {
+			"default": false
+		},
+		"mikestead.dotenv": {
+			"default": false
+		},
+		"pranaygp.vscode-css-peek": {
+			"default": false
+		},
+		"ikappas.phpcs": {
+			"default": false
+		},
+		"platformio.platformio-ide": {
+			"default": false
+		},
+		"jchannon.csharpextensions": {
+			"default": false
+		},
+		"gruntfuggly.todo-tree": {
+			"default": false
+		}
+	},
+	"trustedExtensionProtocolHandlers": [
+		"vscode.git",
+		"vscode.github-authentication",
+		"vscode.microsoft-authentication",
+		"github.vscode-pull-request-github"
+	],
+	"commonlyUsedSettings": [
+		"editor.fontSize",
+		"editor.formatOnSave",
+		"files.autoSave",
+		"editor.defaultFormatter",
+		"editor.fontFamily",
+		"editor.wordWrap",
+		"files.exclude",
+		"workbench.colorTheme",
+		"editor.tabSize",
+		"editor.mouseWheelZoom",
+		"editor.formatOnPaste"
+	],
+	"defaultChatAgent": {
+		"extensionId": "GitHub.copilot",
+		"chatExtensionId": "GitHub.copilot-chat",
+		"documentationUrl": "https://example.com",
+		"termsStatementUrl": "https://example.com",
+		"privacyStatementUrl": "https://example.com",
+		"skusDocumentationUrl": "https://example.com",
+		"publicCodeMatchesUrl": "https://example.com",
+		"manageSettingsUrl": "https://example.com",
+		"managePlanUrl": "https://example.com",
+		"manageOverageUrl": "https://example.com",
+		"upgradePlanUrl": "https://example.com",
+		"signUpUrl": "https://example.com",
+		"provider": {
+			"default": {
+				"id": "github",
+				"name": "GitHub"
+			},
+			"enterprise": {
+				"id": "github-enterprise",
+				"name": "GHE.com"
+			},
+			"google": {
+				"id": "google",
+				"name": "Google"
+			},
+			"apple": {
+				"id": "apple",
+				"name": "Apple"
+			}
+		},
+		"providerUriSetting": "github-enterprise.uri",
+		"providerScopes": [
+			[
+				"read:user",
+				"user:email",
+				"repo",
+				"workflow"
+			],
+			[
+				"user:email"
+			],
+			[
+				"read:user"
+			]
+		],
+		"entitlementUrl": "https://example.com",
+		"entitlementSignupLimitedUrl": "https://example.com",
+		"chatQuotaExceededContext": "github.copilot.chat.quotaExceeded",
+		"completionsQuotaExceededContext": "github.copilot.completions.quotaExceeded",
+		"walkthroughCommand": "github.copilot.open.walkthrough",
+		"completionsMenuCommand": "github.copilot.toggleStatusMenu",
+		"completionsRefreshTokenCommand": "github.copilot.signIn",
+		"chatRefreshTokenCommand": "github.copilot.refreshToken",
+		"generateCommitMessageCommand": "github.copilot.git.generateCommitMessage",
+		"resolveMergeConflictsCommand": "github.copilot.git.resolveMergeConflicts",
+		"completionsAdvancedSetting": "github.copilot.advanced",
+		"completionsEnablementSetting": "github.copilot.enable",
+		"nextEditSuggestionsSetting": "github.copilot.nextEditSuggestions.enabled"
+	},
+	"provider": "Yinli",
+	"providerCode": "cn",
+	"packageType": "TRAE_CN",
+	"nameAlias": "TRAE CN",
+	"brandName": "TRAE",
+	"peerDataFolderNames": [
+		".trae"
+	],
+	"deeplinkHost": "trae.ai-ide",
+	"traeVersionCode": "20250325",
+	"linkProtectionTrustedDomains": [
+		"*.twitter.com",
+		"*.larkoffice.com",
+		"*.juejin.cn",
+		"*.trae.ai",
+		"*.trae.com.cn",
+		"*.trae.cn",
+		"*.byted.org",
+		"*.bytedance.net",
+		"*.bytedance.com",
+		"*.tiktok-row.org",
+		"*.bytednsdoc.com",
+		"*.byteimg.com",
+		"*.marscode.cn",
+		"*.marscode.com",
+		"*.vercel.com",
+		"*.supabase.com",
+		"*.mcdemo.show"
+	],
+	"bootConfig": {
+		"feedbackMail": "feedback@mail.trae.cn",
+		"defaultGitEmail": "git@mail.trae.cn",
+		"condition": {
+			"website": [
+				"www.trae.cn",
+				"trae.cn"
+			],
+			"bytedanceLoginPage": [
+				"sso.bytedance.com",
+				"accounts.feishu.cn"
+			]
+		},
+		"iCube": {
+			"normal": "https://api.trae.com.cn"
+		},
+		"market": {
+			"trae": {
+				"normal": "https://api.trae.com.cn"
+			},
+			"bytedance": {
+				"normal": "https://ide-market.bytedance.net"
+			}
+		},
+		"iCubeAgent": {
+			"normal": "https://api.trae.com.cn"
+		},
+		"frontier": {
+			"normal": "wss://frontier.zijieapi.com/ws/v2",
+			"boe": "wss://frontier-boe.bytedance.net/ws/v2"
+		},
+		"asr": {
+			"engine": "volcengine",
+			"domain": {
+				"normal": "https://api.trae.com.cn"
+			},
+			"appId": "4089030846",
+			"bigmodelResourceId": "volc.bigasr.sauc.duration",
+			"bigmodelApiUrl": "wss://openspeech.bytedance.com/api/v3/sauc/bigmodel",
+			"smallmodelApiUrl": "wss://openspeech.bytedance.com/api/v2/asr",
+			"cluster": {
+				"ja": "volcengine_streaming_ja",
+				"en": "volcengine_streaming_en",
+				"zh-cn": "volcengine_streaming"
+			}
+		},
+		"account": {
+			"trae": {
+				"normal": "https://api.trae.cn"
+			},
+			"saas": {
+				"boe": "https://enterprise.mcdemo.show",
+				"prod": "https://console.enterprise.trae.cn"
+			},
+			"bytedance": {
+				"OLD": "https://ide.bytedance.net",
+				"NEW": "https://solo-web.bytedance.net"
+			},
+			"bypassHosts": [
+				"byted.org",
+				"bytedance.net",
+				"bytedance.com",
+				"tiktok-row.org",
+				"bytednsdoc.com",
+				"byteimg.com",
+				".trae.com.cn",
+				".trae.cn"
+			]
+		},
+		"ug": {
+			"trae": {
+				"normal": "https://api.trae.cn"
+			},
+			"appId": "6eefa01c-1036-4c7e-9ca5-d891f63bfcd8",
+			"bytedance": {
+				"normal": "https://solo-web.bytedance.net"
+			}
+		},
+		"agent": {
+			"trae": {
+				"normal": "https://trae-api-cn.mchost.guru"
+			},
+			"appId": "6eefa01c-1036-4c7e-9ca5-d891f63bfcd8",
+			"bytedance": {
+				"normal": "",
+				"CN": "https://copilot-cn.bytedance.net",
+				"SG": "https://copilot-sg-og.byteintl.net",
+				"US": "https://copilot-og.byteintl.net"
+			},
+			"bytedanceRemote": {
+				"normal": "",
+				"CN": "https://copilot-cn.bytedance.net",
+				"SG": "https://copilot-sg.byteintl.net",
+				"US": "https://copilot.byteintl.net"
+			}
+		},
+		"remote": {
+			"trae": {
+				"normal": "https://trae-api-cn.mchost.guru"
+			},
+			"bytedance": {
+				"normal": "",
+				"CN": "https://copilot-cn.bytedance.net",
+				"SG": "https://copilot-sg-og.byteintl.net",
+				"US": "https://copilot-og.byteintl.net"
+			},
+			"bytedanceRemote": {
+				"normal": ""
+			}
+		},
+		"ckg": {
+			"trae": {
+				"normal": "https://trae-api-cn.mchost.guru"
+			},
+			"appId": "6eefa01c-1036-4c7e-9ca5-d891f63bfcd8",
+			"bytedance": {
+				"normal": "",
+				"CN": "https://copilot-cn.bytedance.net",
+				"SG": "https://copilot-sg-og.byteintl.net",
+				"US": "https://copilot-sg-og.byteintl.net"
+			},
+			"bytedanceRemote": {
+				"normal": "",
+				"CN": "https://copilot-cn.bytedance.net",
+				"SG": "https://copilot-sg.byteintl.net",
+				"US": "https://copilot-sg.byteintl.net"
+			}
+		},
+		"cue": {
+			"trae": {
+				"normal": "https://trae-api-cn.mchost.guru"
+			},
+			"appId": "6eefa01c-1036-4c7e-9ca5-d891f63bfcd8",
+			"bytedance": {
+				"normal": "",
+				"CN": "https://copilot-cn.bytedance.net",
+				"SG": "https://copilot-sg-og.byteintl.net",
+				"US": "https://copilot-og.byteintl.net"
+			},
+			"bytedanceRemote": {
+				"normal": "",
+				"CN": "https://copilot-cn.bytedance.net",
+				"SG": "https://copilot-sg.byteintl.net",
+				"US": "https://copilot.byteintl.net"
+			}
+		},
+		"hub": {
+			"trae": {
+				"normal": "https://trae-api-cn.mchost.guru"
+			},
+			"appId": "6eefa01c-1036-4c7e-9ca5-d891f63bfcd8",
+			"bytedance": {
+				"normal": "",
+				"CN": "https://copilot-cn.bytedance.net",
+				"SG": "https://copilot-sg-og.byteintl.net",
+				"US": "https://copilot-og.byteintl.net"
+			},
+			"bytedanceRemote": {
+				"normal": ""
+			}
+		},
+		"ws": {
+			"trae": {
+				"normal": "wss://trae-ws-cn.mchost.guru/custom_model"
+			},
+			"appId": "6eefa01c-1036-4c7e-9ca5-d891f63bfcd8",
+			"bytedance": {
+				"normal": ""
+			}
+		},
+		"consoleHost": "https://www.trae.cn",
+		"homeUrl": "https://www.trae.cn",
+		"soloUrl": "https://work.trae.cn",
+		"artifactShareOrigin": {
+			"trae": {
+				"normal": "https://share.traecontent.cn"
+			},
+			"bytedance": {
+				"normal": "https://solo-web-share.bytedance.net"
+			}
+		},
+		"repoAuthorizationUrl": "http://solo-web.bytedance.net/authorization",
+		"downloadUrl": "https://www.trae.cn/ide/download",
+		"soloDownloadActivityUrl": "https://www.trae.cn/work-express-activity",
+		"starling": {
+			"normal": "https://starling.zijieapi.com"
+		},
+		"starlingCdn": {
+			"normal": "https://lf-starling.zijiecdn.cn/obj/starling-web-dist/starling"
+		},
+		"starlingRefreshIntervalMs": 3600000,
+		"tea": {
+			"verifyHost": "https://mcs.bytedance.net",
+			"debugHost": "https://data.bytedance.net",
+			"appId": {
+				"TRAE": 711126,
+				"SOLO": 932204
+			},
+			"libraDomain": {
+				"normal": "https://abtestvm.bytedance.com"
+			},
+			"channelDomain": {
+				"normal": "https://mcs.zijieapi.com"
+			},
+			"supportChangeAppId": false,
+			"engine": "tea"
+		},
+		"slardar": {
+			"bid": {
+				"TRAE": "trae_cn",
+				"SOLO": "solo_pc"
+			},
+			"domain": {
+				"normal": "https://mon.zijieapi.com"
+			},
+			"aid": 0,
+			"token": "",
+			"supportChangeInstance": false,
+			"engine": "slardar"
+		},
+		"slardarPC": {
+			"domain": {
+				"normal": "https://pc-mon.zijieapi.com"
+			},
+			"aid": {
+				"TRAE": 787976,
+				"SOLO": 931506
+			},
+			"engine": "slardar"
+		},
+		"doc": {
+			"baseUrl": "https://docs.trae.cn",
+			"mcpManualUrl": "https://docs.trae.cn/ide/model-context-protocol",
+			"troubleshootingDoc": "https://forum.trae.cn/t/topic/2439",
+			"performanceTroubleshootingDoc": "https://docs.trae.cn/ide/troubleshoot-performance-issues",
+			"memoryRiskTroubleshootingDoc": "https://docs.trae.cn/ide/troubleshoot-performance-issues#7f245caa",
+			"memoryTroubleshootingDoc": "https://docs.trae.cn/docs/troubleshooting#60714ae9",
+			"memoryDocUrl": "https://docs.trae.cn/ide/memories",
+			"ideBillingDoc": "",
+			"enterpriseBillingOverviewUrl": "https://docs.trae.cn/enterprise/billing-overview-for-trae-enterprise",
+			"enterprisePayAsYouGoUrl": "https://docs.trae.cn/enterprise/pay-as-you-go",
+			"enterpriseMaxModeUrl": "https://docs.trae.cn/enterprise/max-mode",
+			"customAgentHelpUrl": "https://docs.trae.cn/ide/agent",
+			"subagentDocUrl": "https://docs.trae.cn/ide/solo-coder",
+			"setMcpSysEnvDocUrl": "https://docs.trae.cn/ide/model-context-protocol#2681b4c9",
+			"upgradeToProUrl": "",
+			"AccountManagement": "https://www.trae.cn/dashboard#account",
+			"AccountUpgrade": "",
+			"AccountUsage": "https://www.trae.cn/dashboard#usage",
+			"AccountSubscription": "https://www.trae.cn/dashboard#subscription",
+			"aiClientErrorFAQUrl": "https://docs.trae.cn/docs/troubleshooting#7ec77ff3",
+			"aiLLMTaskPromptTokenExceedLimitErrorFAQUrl": "https://docs.trae.cn/ide/troubleshooting#c6653c13",
+			"builtinModelTipUrl": "https://docs.trae.cn/ide/models",
+			"sshManualUrl": "https://docs.trae.cn/docs/ssh-remote",
+			"wslManualUrl": "https://docs.trae.cn/docs/wsl",
+			"purchaseExtraPackageUrl": "",
+			"promptDocUrl": "",
+			"autoModeLearnMoreDocs": "https://docs.trae.cn/ide/auto-mode",
+			"maxModeDocsUrl": "https://docs.trae.cn/ide/max-mode",
+			"accountUsageUrl": "https://www.trae.cn/account-setting#usage",
+			"billingDocs": "https://docs.trae.cn/ide/billing",
+			"termsOfServiceUrl": "https://www.trae.cn/terms-of-service",
+			"privatePolicyUrl": "https://www.trae.cn/privacy-policy",
+			"openSourceSoftwareNoticeUrl": "https://docs.trae.cn/docs/open-source-software-notice",
+			"soloOpenSourceSoftwareNoticeUrl": "https://docs.trae.cn/solo/open-source-software-notice",
+			"userManualUrl": "https://docs.trae.cn/docs/what-is-trae?_lang=zh",
+			"soloUserManualUrl": "https://docs.trae.cn/solo/what-is-trae-solo",
+			"soloContactUrl": "https://docs.trae.cn/solo/support",
+			"contactUrl": "https://docs.trae.cn/ide/support",
+			"officialForumUrl": "https://forum.trae.cn/",
+			"officialForumHelpUrl": "https://forum.trae.cn/c/7-category/7",
+			"oncallUrl": "https://docs.trae.cn/ide/support",
+			"soloCodeUrl": "",
+			"cueDocUrl": "https://docs.trae.cn/docs/cue",
+			"ruleDocUrl": "https://docs.trae.cn/docs/rules",
+			"releaseNotesUrl": "https://trae.cn/changelog",
+			"helpExtensionUrl": "https://docs.trae.cn/docs/manage-extensions",
+			"privacyModeDocUrl": "https://docs.trae.cn/ide/privacy-mode",
+			"soloPrivacyModeDocUrl": "https://docs.trae.cn/solo/privacy-mode",
+			"reportIssueUrl": "https://docs.trae.cn/ide/support",
+			"downloadUrl": "",
+			"reportMarketplaceIssueUrl": "",
+			"windowsPwshUpgradeGuideDocUrl": "https://docs.trae.ai/docs/builder?_lang=zh",
+			"cloudideUserOncallUrl": "https://applink.larkoffice.com/client/chat/chatter/add_by_link?link_token=17cv9d22-b3b4-48f7-b091-735128adcb5c",
+			"cloudideInternalHelpUrl": "https://bytedance.feishu.cn/wiki/wikcnGBXkRZQiSZdNbA1W8z6Qlb",
+			"microphonePermissionHelpUrl": "https://docs.trae.cn/ide/voice-input",
+			"saasMaxDocsUrl": "https://docs.trae.cn/ide/max-mode",
+			"soloTroubleshootingDocUrl": "https://docs.trae.cn/solo/troubleshooting",
+			"expressUrl": "https://www.trae.cn/express",
+			"expressRuleUrl": "https://docs.trae.cn/ide/express-pass",
+			"expressSOLORuleUrl": "https://docs.trae.cn/solo/express-pass"
+		},
+		"threePg": {
+			"supabase": "https://api.supabase.com",
+			"vercel": "https://api.vercel.com"
+		},
+		"internalCheckList": [
+			"https://icube-api.bytedance.net/trae/ping",
+			"https://icube-api-sg.tiktok-row.net/trae/ping"
+		],
+		"cdnCheckList": [
+			"grow-normal.trae.ai",
+			"api.trae.com.cn"
+		],
+		"cdn": {
+			"SG": "https://lf-cdn.trae.ai/obj/trae-ai-sg",
+			"US": "https://lf-cdn.trae.ai/obj/trae-ai-us",
+			"CN": "https://lf-cdn.trae.com.cn/obj/trae-com-cn",
+			"USTTP": "https://lf-static.traecdn.us/obj/trae-ai-tx",
+			"internalUSTTP": "https://tosv.tiktokd.org/obj/trae-ai-tx",
+			"private": "https://cdn-tos.bytedance.net"
+		},
+		"extensionGallery": {
+			"trae": {
+				"hostedMarketplaceDomains": {
+					"CN": "api.trae.com.cn",
+					"SG": "api.trae.ai",
+					"US": "api.trae.ai",
+					"USTTP": "api.trae.ai"
+				},
+				"servicePath": "/extensions/vscode/gallery",
+				"controlPath": "/icube/api/v1/control-url/latest",
+				"resourceUrlTemplatePath": "/extensions/vscode/asset/{publisher}/{name}/{version}/Microsoft.VisualStudio.Code.WebResources/{path}"
+			},
+			"bytedance": {
+				"hostedMarketplaceDomains": {
+					"CN": "ide-market.bytedance.net",
+					"SG": "ide-market-us.tiktok-row.net",
+					"US": "ide-market-us.tiktok-row.net",
+					"USTTP": "ide-market-us.tiktok-row.net"
+				},
+				"hostedMarketplaceRemoteDomains": {
+					"CN": "ide.byted.org",
+					"SG": "ide-us.byted.org",
+					"US": "ide-us.byted.org",
+					"USTTP": "ide-us.byted.org"
+				},
+				"servicePath": "/extensions/vscode/gallery",
+				"controlPath": "/icube/api/v1/control-url/latest",
+				"resourceUrlTemplatePath": "/extensions/vscode/asset/{publisher}/{name}/{version}/Microsoft.VisualStudio.Code.WebResources/{path}"
+			},
+			"customExtensionsGalleryDomains": [
+				{
+					"domain": "marketplace.visualstudio.com",
+					"path": "/_apis/public/gallery",
+					"type": "other"
+				},
+				{
+					"domain": "open-vsx.org",
+					"path": "/vscode/gallery",
+					"type": "original"
+				},
+				{
+					"domain": "open-vsx.gitpod.io",
+					"path": "/vscode/gallery",
+					"type": "mirror"
+				},
+				{
+					"domain": "open-vsx.trae.ai",
+					"path": "/extensions/vscode/gallery",
+					"type": "mirror"
+				},
+				{
+					"domain": "open-vsx.trae.com.cn",
+					"path": "/extensions/vscode/gallery",
+					"type": "mirror"
+				}
+			]
+		},
+		"mcpConfig": {
+			"trae": {
+				"domain": {
+					"normal": "https://api.trae.com.cn"
+				},
+				"path": {
+					"searchUrl": "/extensions/api/-/agent/search",
+					"detailUrl": "/extensions/api/-/agent/detail",
+					"batchGetUrl": "/extensions/api/-/agent/batch-get",
+					"recordVisitUrl": "/extensions/api/-/agent/record-visit",
+					"recordDownloadUrl": "/extensions/api/-/agent/record-download"
+				}
+			},
+			"bytedance": {
+				"domain": {
+					"normal": "https://ide-market.bytedance.net"
+				},
+				"path": {
+					"searchUrl": "/extensions/api/-/agent/search",
+					"detailUrl": "/extensions/api/-/agent/detail",
+					"batchGetUrl": "/extensions/api/-/agent/batch-get",
+					"recordVisitUrl": "/extensions/api/-/agent/record-visit",
+					"recordDownloadUrl": "/extensions/api/-/agent/record-download"
+				}
+			}
+		},
+		"imageX": {
+			"appId": 711126,
+			"service": {
+				"traematerial": {
+					"imageHost": {
+						"normal": "https://imagex.bytedanceapi.com"
+					},
+					"tokenHost": {
+						"normal": "https://api.trae.com.cn"
+					}
+				},
+				"feedback": {
+					"imageHost": {
+						"normal": "https://imagex.bytedanceapi.com"
+					},
+					"tokenHost": {
+						"normal": "https://api.trae.com.cn"
+					}
+				},
+				"copilot": {
+					"replaceTokenHost": {
+						"https://copilot.byteintl.net": "https://copilot-sg.byteintl.net",
+						"https://copilot-og.byteintl.net": "https://copilot-sg-og.byteintl.net",
+						"https://coreva-normal.trae.ai": "https://coresg-normal.trae.ai"
+					},
+					"imageHost": {
+						"normal": "https://imagex.bytedanceapi.com",
+						"SG": "https://imagexsg-normal.trae.ai",
+						"US": "https://imagexsg-normal.trae.ai"
+					}
+				}
+			}
+		},
+		"guideHelper": {
+			"go": {
+				"proxy": "https://goproxy.cn,direct"
+			},
+			"python": {},
+			"node": {
+				"external": "https://cdn.npmmirror.com/binaries/node",
+				"nodeRegistryMap": "https://registry.npmmirror.com"
+			},
+			"java": {
+				"maven": "https://maven.aliyun.com/repository/central"
+			}
+		},
+		"agentMisc": {
+			"ideCn": "ide.byted.org",
+			"ideUs": "ide-us.byted.org",
+			"bytegate": "https://bytegate.zijieapi.com",
+			"iac": "https://iac.byted.org"
+		},
+		"dynamicUI": {
+			"html2canvasUrl": "https://unpkg.byted-static.com/html2canvas/1.4.1/dist/html2canvas.min.js",
+			"sandboxUrl": "https://widget.traecontent.cn/",
+			"enableLocalhostFallback": true
+		},
+		"profileConfig": {
+			"profileUrl": "https://p-icube-feedback.bytedance.net"
+		},
+		"reverseProxyMappings": {
+			"ide": [
+				{
+					"SourceHost": "pc-mon.zijieapi.com",
+					"TargetPath": "/"
+				},
+				{
+					"SourceHost": "starling.zijieapi.com",
+					"TargetPath": "/"
+				},
+				{
+					"SourceHost": "tnc3-bjlgy.zijieapi.com",
+					"TargetPath": "/"
+				},
+				{
+					"SourceHost": "tnc0-alisc1.zijieapi.com",
+					"TargetPath": "/"
+				},
+				{
+					"SourceHost": "api.trae.com.cn",
+					"SourcePath": "/service/settings/v3/",
+					"TargetPath": "/"
+				}
+			],
+			"soloLite": [
+				{
+					"SourceHost": "starling.zijieapi.com",
+					"TargetPath": "/"
+				}
+			]
+		},
+		"ahaDoctorDomains": [
+			"lf-cdn.trae.com.cn",
+			"ide-copilot-online.tos-cn-beijing.volces.com"
+		],
+		"networkDiagnosticToBOnlyDomains": [
+			"ide-copilot-online.tos-cn-beijing.volces.com"
+		]
+	},
+	"iCubeApp": {
+		"authConfig": {
+			"TRAE": {
+				"stable": "ono9krqynydwx5",
+				"beta": "2k472yneke6pw3",
+				"alpha": "pl2689e0l0xr1n",
+				"dev": "8e4olyd5e5pn36",
+				"local": "qjpvq9k8j8ryde"
+			},
+			"SOLO": {
+				"stable": "en1oxy7wnw8j9n",
+				"beta": "nn572p8wnw1vd7",
+				"alpha": "0r4x5yq0r07nwp",
+				"dev": "y6d1xnrk6k28o3",
+				"local": "4v468ylkvkwn02"
+			}
+		},
+		"tnc": {
+			"usttp": false,
+			"ug": false,
+			"ws": false,
+			"agent": false,
+			"cue": false,
+			"ckg": false
+		},
+		"nativeAppConfig": {
+			"authDomain": "www.trae.cn",
+			"authFrom": "trae",
+			"agentShareLinkAuthority": "trae.ai-ide",
+			"authProviderId": "icube.cloudide",
+			"authProviderLabel": "Trae CN",
+			"dsc": {
+				"agent": false,
+				"chatServer": true
+			},
+			"memoryMonitorConfig": {
+				"memoryReportThreshold": 8,
+				"memoryNotificationThreshold": 1.5,
+				"singleExtensionMemoryThreshold": 1.5,
+				"enableExtensionMemoryHandler": true,
+				"memoryAlarmIdle": 64
+			},
+			"singleProcessMonitorEnabled": false,
+			"enableEntitlement": true,
+			"messagesConfig": {
+				"enableMessages": true,
+				"enableSwitch": false
+			},
+			"singleProcessMonitors": [
+				{
+					"reg": "^icube-manager$",
+					"memory_limit": 2048,
+					"process_prefix": "[icube-subprocess]",
+					"cpu_limit": 100,
+					"weight": 10,
+					"include_child": false
+				},
+				{
+					"reg": "ckg_server|^ckg$",
+					"memory_limit": 2048,
+					"process_prefix": "[icube-subprocess]",
+					"cpu_limit": 100,
+					"weight": 10,
+					"include_child": true
+				},
+				{
+					"reg": "ai-agent",
+					"memory_limit": 2048,
+					"process_prefix": "[icube-subprocess]",
+					"cpu_limit": 100,
+					"weight": 10,
+					"include_child": true
+				},
+				{
+					"reg": "trae-helper|harness-server|agent-tool-host",
+					"memory_limit": 2048,
+					"process_prefix": "[icube-subprocess]",
+					"cpu_limit": 100,
+					"weight": 10,
+					"include_child": false
+				},
+				{
+					"reg": "ai-completion|ai-server",
+					"memory_limit": 2048,
+					"process_prefix": "[icube-subprocess]",
+					"cpu_limit": 100,
+					"weight": 10,
+					"include_child": true
+				},
+				{
+					"reg": "ai",
+					"memory_limit": 2048,
+					"process_prefix": "[icube-subprocess]",
+					"cpu_limit": 100,
+					"weight": 9,
+					"include_child": true
+				}
+			],
+			"extensionRegCollection": [
+				{
+					"reg": "gopls",
+					"fileNameReg": "gopls$",
+					"name": "Go"
+				},
+				{
+					"reg": "ms-vscode.cpptools",
+					"name": "C++"
+				},
+				{
+					"reg": "ms-python.python",
+					"name": "Python"
+				},
+				{
+					"reg": "redhat.java",
+					"name": "RedHatJava"
+				},
+				{
+					"reg": "vscjava.vscode-gradle",
+					"name": "GradleJava"
+				},
+				{
+					"reg": "kotlin",
+					"name": "Kotlin"
+				},
+				{
+					"reg": "eslintServer.js",
+					"name": "Eslint"
+				},
+				{
+					"reg": "icube-volar",
+					"name": "Vue"
+				},
+				{
+					"reg": "tsserver.js",
+					"name": "Typescript"
+				},
+				{
+					"reg": "rust-analyzer",
+					"name": "Rust"
+				}
+			],
+			"guideHelper": {
+				"go": {
+					"proxy": "https://goproxy.cn,direct"
+				},
+				"python": {},
+				"node": {
+					"external": "https://cdn.npmmirror.com/binaries/node",
+					"nodeRegistryMap": "https://registry.npmmirror.com"
+				},
+				"java": {
+					"maven": "https://maven.aliyun.com/repository/central"
+				}
+			}
+		},
+		"importConfigurations": {
+			"filterExtensionIds": [
+				"byted-ide.gallery",
+				"anysphere.pyright",
+				"codeium.windsurfpyright",
+				"anysphere.cursor-pyright"
+			],
+			"filterKeybindingCommands": [
+				"composerMode.agent"
+			]
+		},
+		"sshExtensions": [],
+		"guideOptions": {
+			"enableGuideModal": true
+		},
+		"git": {
+			"singleDiffMaxLength": 50000,
+			"diffMaxLength": 500000,
+			"ignoreFileExtensions": [
+				"jpg",
+				"png",
+				"apng",
+				"gif",
+				"webp",
+				"flif",
+				"xcf",
+				"cr2",
+				"cr3",
+				"orf",
+				"arw",
+				"dng",
+				"nef",
+				"rw2",
+				"raf",
+				"tif",
+				"bmp",
+				"icns",
+				"jxr",
+				"psd",
+				"indd",
+				"zip",
+				"tar",
+				"rar",
+				"gz",
+				"bz2",
+				"7z",
+				"dmg",
+				"mp4",
+				"mid",
+				"mkv",
+				"webm",
+				"mov",
+				"avi",
+				"mpg",
+				"mp2",
+				"mp3",
+				"m4a",
+				"oga",
+				"ogg",
+				"ogv",
+				"opus",
+				"flac",
+				"wav",
+				"spx",
+				"amr",
+				"pdf",
+				"epub",
+				"exe",
+				"swf",
+				"rtf",
+				"wasm",
+				"woff",
+				"woff2",
+				"eot",
+				"ttf",
+				"otf",
+				"ico",
+				"flv",
+				"ps",
+				"xz",
+				"sqlite",
+				"nes",
+				"crx",
+				"xpi",
+				"cab",
+				"deb",
+				"ar",
+				"rpm",
+				"Z",
+				"lz",
+				"cfb",
+				"mxf",
+				"mts",
+				"blend",
+				"bpg",
+				"docx",
+				"pptx",
+				"xlsx",
+				"3gp",
+				"3g2",
+				"jp2",
+				"jpm",
+				"jpx",
+				"mj2",
+				"aif",
+				"qcp",
+				"odt",
+				"ods",
+				"odp",
+				"mobi",
+				"heic",
+				"cur",
+				"ktx",
+				"ape",
+				"wv",
+				"dcm",
+				"ics",
+				"glb",
+				"pcap",
+				"dsf",
+				"lnk",
+				"alias",
+				"voc",
+				"ac3",
+				"m4v",
+				"m4p",
+				"m4b",
+				"f4v",
+				"f4p",
+				"f4b",
+				"f4a",
+				"mie",
+				"asf",
+				"ogm",
+				"ogx",
+				"mpc",
+				"arrow",
+				"shp",
+				"aac",
+				"mp1",
+				"it",
+				"s3m",
+				"xm",
+				"ai",
+				"skp",
+				"avif",
+				"eps",
+				"lzh",
+				"pgp",
+				"asar",
+				"stl",
+				"chm",
+				"3mf",
+				"zst",
+				"jxl",
+				"vcf"
+			],
+			"model": "deepseek-V3"
+		},
+		"icubeExtensionControl": [
+			{
+				"condition": {
+					"id": "ms-python.vscode-pylance"
+				},
+				"actions": {
+					"reason": "BANNED_BY_MS",
+					"level": "warning",
+					"alternative": [
+						{
+							"id": "detachhead.basedpyright",
+							"name": "BasedPyright"
+						}
+					],
+					"extHostBlockGetExtension": [
+						{
+							"fromExtId": "ms-python.python",
+							"block": true
+						},
+						{
+							"fromExtId": "detachhead.basedpyright",
+							"block": true
+						},
+						{
+							"fromExtId": "ms-pyright.pyright",
+							"block": true
+						}
+					]
+				}
+			}
+		],
+		"newVersionGuideRoute": [
+			{
+				"match": {
+					"lastVersion": "<2.8.0",
+					"currentVersion": ">=2.8.0"
+				},
+				"action": "showGuide"
+			}
+		],
+		"aiFeatures": {
+			"mcpToolLimit": 40,
+			"mcpTokenLimit": 8000,
+			"mcpTokenLimitM8": 6000,
+			"customPromptTokenLimit": 10000,
+			"customPromptTokenLimitM8": 3000,
+			"disablePeAvlCmd": true,
+			"chatMessageQueryLimit": 400,
+			"historyQueryLimit": 300,
+			"serverHistoryCacheLimit": 400
+		},
+		"entitlementModal": {
+			"soloWelcome": {
+				"video": "1_solo_cn.mp4",
+				"template": {
+					"title": {
+						"default": {
+							"en": "Welcome to the new SOLO Mode!",
+							"zh-cn": "欢迎使用全新 SOLO 模式！",
+							"ja": "新しい SOLO モードへようこそ！"
+						}
+					},
+					"description": {
+						"default": [
+							{
+								"text": {
+									"en": "SOLO Mode integrates multiple tools, including the IDE. Simply describe what you need, and it will proactively drive the full development workflow based on your goals.",
+									"zh-cn": "SOLO 模式集成包括 IDE 在内的多种工具。你只需表达需求，它就会基于目标主动推进完整开发流程。",
+									"ja": "SOLO モードは IDE を含む複数のツールを統合し、あなたの目的に応じて開発フロー全体を自動で進めます。必要なことを伝えるだけで大丈夫です。"
+								}
+							}
+						]
+					},
+					"buttons": {
+						"default": [
+							{
+								"type": "secondary",
+								"text": {
+									"en": "Cancel",
+									"zh-cn": "取消",
+									"ja": "キャンセル"
+								},
+								"action": "dispose"
+							},
+							{
+								"type": "primary",
+								"text": {
+									"en": "Try it now",
+									"zh-cn": "立即体验",
+									"ja": "今すぐ体験"
+								},
+								"action": "command",
+								"commandId": "trae.solo.guide.tryShowSoloGuide"
+							}
+						]
+					}
+				}
+			}
+		},
+		"authInvalidConfig": {
+			"checkIntervalRules": [
+				600000
+			],
+			"templateMap": {
+				"20125": {
+					"title": {
+						"zh-cn": "版本过低",
+						"en": "Version Outdated",
+						"ja": "バージョンが古いです"
+					},
+					"description": {
+						"zh-cn": "当前 TRAE 版本过低，需要升级后才能继续使用。点击「安装最新版本」完成更新，更新完成后应用将自动重启。",
+						"en": "Your current TRAE version is outdated. Please update to continue using the application. Click \"Install Latest Version\" to update. The app will restart automatically when the installation is complete.",
+						"ja": "現在の TRAE バージョンは古いため、続行するにはアップデートが必要です。「最新バージョンをインストール」をクリックして更新してください。更新完了後、アプリは自動的に再起動します。"
+					},
+					"buttons": [
+						{
+							"type": "primary",
+							"label": {
+								"zh-cn": "安装最新版本",
+								"en": "Install Latest Version",
+								"ja": "最新バージョンをインストール"
+							},
+							"action": "command",
+							"commandId": "update.checkForUpdate",
+							"tea": "check_update_button"
+						}
+					]
+				},
+				"default": {
+					"title": {
+						"zh-cn": "登录已失效",
+						"en": "Login Expired",
+						"ja": "ログインの有効期限が切れました"
+					},
+					"description": {
+						"zh-cn": "登录状态已失效，请重新登录",
+						"en": "Login session has expired. Please log in again.",
+						"ja": "ログインセッションの有効期限が切れました。もう一度ログインしてください。"
+					},
+					"buttons": [
+						{
+							"type": "primary",
+							"label": {
+								"zh-cn": "登录",
+								"en": "Log in",
+								"ja": "ログイン"
+							},
+							"action": "login",
+							"tea": "default_login_button"
+						}
+					]
+				}
+			}
+		},
+		"soloGuide": {
+			"saas": "forbidden",
+			"bytedance": "access",
+			"trae": "access",
+			"showIdeGuide": true,
+			"trigger": {
+				"saas": false,
+				"bytedance": true,
+				"trae": true
+			},
+			"tabBlacklist": {
+				"saas": [
+					"solo_integration",
+					"solo_supabase"
+				],
+				"bytedance": [
+					"solo_integration",
+					"solo_supabase"
+				],
+				"trae": [
+					"solo_integration",
+					"solo_supabase"
+				]
+			},
+			"template": {
+				"button": {
+					"try": {
+						"label": {
+							"zh-cn": "立即体验",
+							"en": "Try now",
+							"ja": "今すぐ体験"
+						},
+						"primary": true,
+						"commandId": "soloMode",
+						"tea": "try_click"
+					},
+					"know": {
+						"label": {
+							"zh-cn": "知道了，不再提醒",
+							"en": "Dismiss and don't repeat",
+							"ja": "了解しました；もう通知しないで"
+						},
+						"primary": true,
+						"tea": "get_builder",
+						"commandId": "soloBuilder"
+					},
+					"join": {
+						"label": {
+							"zh-cn": "加入等待名单",
+							"en": "Join the waitlist",
+							"ja": "ウェイトリストに参加"
+						},
+						"primary": true,
+						"openInBrowser": true,
+						"tea": "join_waitlist",
+						"url": "https://www.trae.cn/solo"
+					}
+				},
+				"title": {
+					"access": {
+						"zh-cn": "::SOLO:: 模式，全面开放！",
+						"en": "::SOLO:: Mode, Open to All!",
+						"ja": "::SOLO:: モード、ついに全開放！"
+					},
+					"forbidden": {
+						"zh-cn": "::SOLO:: 模式即将上线，敬请期待",
+						"en": "::SOLO:: Mode Coming Soon",
+						"ja": "::SOLO:: モードまもなく登場"
+					},
+					"error": {
+						"zh-cn": "::SOLO:: 模式切换失败",
+						"en": "Failed to switch to ::SOLO:: mode ",
+						"ja": "::SOLO:: モードの切り替えに失敗しました"
+					},
+					"soloBuilder": {
+						"zh-cn": "已自动切换至 ::SOLO:: 模式",
+						"en": "Automatically switched to ::SOLO:: Mode",
+						"ja": "自動的に ::SOLO:: モードに切り替わりました"
+					},
+					"gray": {
+						"zh-cn": "::SOLO:: 模式正在逐步开放体验，敬请期待",
+						"en": "::SOLO:: mode is being gradually rolled out. Please stay tuned.",
+						"ja": "::SOLO:: モードは順次公開中です。今しばらくお待ちください。"
+					}
+				},
+				"description": {
+					"access": {
+						"zh-cn": [
+							"SOLO 模式集成包括 IDE 在内的多种工具。你只需表达需求，它就会基于目标主动推进完整开发流程。立即进入 SOLO 模式，开启 AI 主导的全新开发体验！"
+						],
+						"en": [
+							"SOLO Mode brings together tools like the IDE to drive the entire dev process from your goals. Try SOLO Mode now — experience a new AI-driven way to build!"
+						],
+						"ja": [
+							"SOLO モードはIDEなど複数のツールを統合し、目標に基づいて開発プロセスを自動で進めます。今すぐSOLOモードを体験しよう。AI主導の新しい開発体験！"
+						]
+					},
+					"forbidden": {
+						"zh-cn": [
+							"SOLO 模式集成包括 IDE 在内的多种工具。你只需表达需求，它就会基于目标主动推进完整开发流程。[了解更多][https://docs.trae.cn/ide/solo-mode]"
+						],
+						"en": [
+							"SOLO Mode brings together tools like the IDE to drive the entire dev process from your goals. Just describe what you need—SOLO does the rest. Stay tuned.[Learn more][https://docs.trae.cn/ide/solo-mode]"
+						],
+						"ja": [
+							"SOLO モードはIDEなど複数のツールを統合し、目標に基づいて開発プロセスを自動で進めます。お楽しみに。[詳しくはこちらをご覧ください][https://docs.trae.cn/ide/solo-mode]"
+						]
+					},
+					"error": {
+						"zh-cn": [
+							"请稍后再试。"
+						],
+						"en": [
+							"Please try again later."
+						],
+						"ja": [
+							"後でもう一度お試しください。"
+						]
+					},
+					"soloBuilder": {
+						"zh-cn": [
+							"SOLO Builder 仅可在 SOLO 模式使用。点击模式开关可切换回 IDE 模式。"
+						],
+						"en": [
+							"SOLO Builder is only available in SOLO Mode. You can use the mode switch to return to IDE Mode."
+						],
+						"ja": [
+							"SOLO Builder は SOLO モードでのみ使用できます。モード切り替えボタンで IDE モードに戻せます。"
+						]
+					}
+				}
+			},
+			"view": {
+				"access": {
+					"title": "access",
+					"media": "media/solo_builder_intro.mp4",
+					"description": "access",
+					"button": [
+						"try"
+					]
+				},
+				"forbidden": {
+					"title": "forbidden",
+					"media": "media/solo_builder_intro.mp4",
+					"description": "forbidden"
+				},
+				"soloBuilder": {
+					"title": "soloBuilder",
+					"description": "soloBuilder",
+					"button": [
+						"know"
+					]
+				},
+				"serverCNForbidden": {
+					"title": "gray",
+					"media": "media/solo_builder_intro.mp4",
+					"description": "forbidden",
+					"button": [
+						"join"
+					]
+				},
+				"error": {
+					"title": "error",
+					"media": "media/solo_builder_intro.mp4",
+					"description": "error"
+				}
+			}
+		},
+		"plugins": {
+			"enable": false
+		},
+		"privacyMode": {
+			"enable": true
+		},
+		"worktree": {
+			"enable": false
+		},
+		"computerUse": {
+			"enable": false,
+			"enableMac": false,
+			"lockedUse": {
+				"enable": false,
+				"doc": ""
+			}
+		},
+		"workAppDistribution": {
+			"enableOpenTraeWorkApp": false,
+			"downloadPath": "/ide/download",
+			"activityPath": "/work-express-activity"
+		},
+		"workLinkURL": "https://www.trae.cn/ide/download?auto=1&product_type=work&utm_source=ide_queue",
+		"appshots": {
+			"enable": true,
+			"fallbackValue": false
+		},
+		"chronicle": {
+			"enable": true,
+			"fallbackValue": false
+		},
+		"terminal": {
+			"splitLargeCommand": false
+		},
+		"featureGates": {
+			"enableHashDoc": false,
+			"enableCueflow": false,
+			"enableTabCue": false,
+			"enableGitAi": true,
+			"disableCueAutoImportAndRename": false,
+			"enableDefaultUseBuilder": false,
+			"enableCheckImageContent": true,
+			"enableSingletonCueServer": false
+		},
+		"aiModelConfig": {
+			"autoDefaultConfig": {
+				"initial": {
+					"forceAuto": false
+				},
+				"repeat": {
+					"forceAuto": false
+				}
+			},
+			"modelOfflineBehavior": "auto_mode",
+			"tipOrder": [
+				"solo_pick",
+				"provider",
+				"multimodal",
+				"reasoning",
+				"memory",
+				"saas_cost",
+				"consumption_rate",
+				"max_mode_switch",
+				"beta",
+				"access"
+			],
+			"tagConfig": {
+				"solo_pick": "solo_pick",
+				"beta": "beta",
+				"discount/member_discount": {
+					"style": "brand",
+					"content": {
+						"value": "ai.configModel.discount.member_discount.tag",
+						"vars": {
+							"discountFold": {
+								"expr": "feature.data.member_discount / 10",
+								"format": "number"
+							},
+							"discountOffPercent": {
+								"expr": "100 - feature.data.member_discount",
+								"format": "number"
+							}
+						}
+					},
+					"tooltip": {
+						"value": "ai.configModel.discount.member_discount.tag_tooltip",
+						"vars": {
+							"discountFold": {
+								"expr": "feature.data.member_discount / 10",
+								"format": "number"
+							},
+							"discountOffPercent": {
+								"expr": "100 - feature.data.member_discount",
+								"format": "number"
+							},
+							"originalConsumptionRate": "feature.data.original_consumption_rate",
+							"consumptionRate": "feature.data.consumption_rate"
+						},
+						"richVars": {
+							"originalConsumptionRate": {
+								"decoration": "line-through"
+							}
+						}
+					}
+				},
+				"discount/exclusive_discount": {
+					"style": "brand",
+					"tooltip": {
+						"value": "ai.configModel.discount.exclusive_discount.tag_tooltip",
+						"vars": {
+							"modelDisplayName": "model.display_name",
+							"consumptionRate": {
+								"expr": "model.features.consumption_rate.data.rate",
+								"format": "number"
+							}
+						}
+					}
+				}
+			},
+			"tooltipConfig": {
+				"solo_pick": "solo_pick",
+				"max_mode_switch": "max_mode_switch",
+				"provider": [
+					"title",
+					"desc"
+				],
+				"multimodal": "tags",
+				"reasoning": "tags",
+				"memory": "tags",
+				"beta": [
+					"title",
+					"desc"
+				],
+				"saas_cost__max": [
+					"title",
+					{
+						"tpl": "link",
+						"action": {
+							"type": "openUrl",
+							"url": "saasMaxDocsUrl"
+						}
+					}
+				],
+				"consumption_rate": [
+					{
+						"tpl": "title",
+						"key": "title"
+					},
+					{
+						"tpl": "desc",
+						"key": "description"
+					}
+				],
+				"discount/member_discount": {
+					"identity": [
+						0
+					],
+					"templates": [
+						{
+							"tpl": "title",
+							"key": "free_title",
+							"content": {
+								"value": "ai.configModel.discount.member_discount.tooltip.free_title",
+								"vars": {
+									"discountFold": {
+										"expr": "feature.data.member_discount / 10",
+										"format": "number"
+									},
+									"discountOffPercent": {
+										"expr": "100 - feature.data.member_discount",
+										"format": "number"
+									}
+								}
+							}
+						},
+						{
+							"tpl": "desc",
+							"key": "free_description",
+							"content": {
+								"value": "ai.configModel.discount.member_discount.tooltip.free_description",
+								"vars": {
+									"discountFold": {
+										"expr": "feature.data.member_discount / 10",
+										"format": "number"
+									},
+									"discountOffPercent": {
+										"expr": "100 - feature.data.member_discount",
+										"format": "number"
+									},
+									"originalConsumptionRate": "feature.data.original_consumption_rate",
+									"consumptionRate": "feature.data.consumption_rate"
+								}
+							}
+						},
+						{
+							"tpl": "button",
+							"key": "free_action",
+							"action": {
+								"type": "openCashier"
+							}
+						}
+					]
+				},
+				"access": [
+					{
+						"tpl": "desc",
+						"key": "cn_desc"
+					},
+					{
+						"tpl": "blink_button",
+						"key": "cn_button",
+						"action": {
+							"type": "openCashier"
+						}
+					}
+				],
+				"access__identity": {
+					"hidden": true
+				},
+				"access/download_work": [
+					{
+						"tpl": "title"
+					},
+					{
+						"tpl": "desc"
+					},
+					{
+						"tpl": "blink_button",
+						"action": {
+							"type": "openExternalUrl",
+							"url": "https://www.trae.cn/ide/download?auto=1&product_type=work"
+						}
+					}
+				],
+				"access/download_work__identity": [
+					{
+						"tpl": "title"
+					},
+					{
+						"tpl": "desc"
+					},
+					{
+						"tpl": "blink_button",
+						"action": {
+							"type": "openExternalUrl",
+							"url": "https://www.trae.cn/ide/download?auto=1&product_type=work"
+						}
+					}
+				]
+			},
+			"tipData": {
+				"links": {}
+			},
+			"enableCustomProvider": true
+		},
+		"autoRunConfig": {
+			"commandDenyList": [
+				"rm",
+				"delete",
+				"unlink",
+				"shred",
+				"dd",
+				"truncate",
+				"kill",
+				"chmod",
+				"del",
+				"erase",
+				"rd",
+				"rmdir",
+				"ri",
+				"Remove-Item",
+				"mv",
+				"copy",
+				"xcopy",
+				"cpi",
+				"copy-item",
+				"mi",
+				"move",
+				"move-item",
+				"Set-Content",
+				"Out-File",
+				"/mkfs.*/",
+				"/git\\s.*(-f|--hard|--fd|--force|-D|-d|--delete)\\s*.*/i",
+				"/git\\s.*(filter-branch|filter-repo|rebase)\\s*.*/i",
+				"/(mysql\\w*|psql|pg_\\w*|sqlplus|sqlcmd|mssql-cli|mongo\\w*|redis-cli|hbase|cqlsh).*(alter|delete|drop|truncate|remove|del|destroy|purge|clear|flush|unlink|flushdb|flushall|hdel|srem|zrem).*/i"
+			],
+			"ideCommandMode": "whitelist",
+			"soloCommandMode": "whitelist",
+			"forceMigration": {
+				"mode": "whitelist",
+				"whiteList": []
+			},
+			"run_mode_version": "v2",
+			"windows_run_mode_version": "v2",
+			"sandboxRWList": [
+				"/tmp",
+				"/var/folders",
+				"$TMPDIR",
+				"~/Library/Caches",
+				"~/.cache",
+				"$XDG_CACHE_HOME",
+				"~/.local/lib",
+				"~/.local/bin",
+				"~/.local/share",
+				"$GOPATH",
+				"~/go",
+				"~/.gvm",
+				"~/Library/Application Support/go",
+				"~/.local/share/go",
+				"$XDG_DATA_HOME/go",
+				"~/.m2",
+				"~/.gradle",
+				"~/.sdkman",
+				"~/miniconda3",
+				"~/.conda",
+				"~/.pyenv",
+				"~/Library/Python",
+				"~/.npm",
+				"~/Library/pnpm",
+				"~/.fnm",
+				"~/.nvm",
+				"~/.rustup",
+				"~/.cargo",
+				"~/.cmake",
+				"~/.llvm",
+				"~/.bazel",
+				"~/.gitlog",
+				"~/.docker",
+				"~/Library/Logs",
+				"/var/tmp",
+				"~/fvm",
+				"~/.swiftpm",
+				"~/.android",
+				"~/.oracle_jre_usage",
+				"~/.dart-tool",
+				"~/.pub-cache",
+				"~/Library/flutter",
+				"~/Library/Developer/Xcode",
+				"~/.yarn",
+				"~/.foundry",
+				"~/.asdf",
+				"~/.jenv",
+				"~/.gem",
+				"~/.rvm",
+				"~/.rbenv",
+				"~/.bundle",
+				"~/.dotnet",
+				"~/.nuget",
+				"~/.sbt",
+				"~/.ivy2",
+				"~/.coursier",
+				"~/.hawtjni",
+				"~/.local/state/pnpm",
+				"~/.local/state/fnm_multishells",
+				"~/.webx",
+				"~/.bun",
+				"~/.bash_history",
+				"$GOCACHE",
+				"$LOCALAPPDATA/pip",
+				"$APPDATA/go",
+				"$LOCALAPPDATA/conda",
+				"$LOCALAPPDATA/go-build",
+				"$LOCALAPPDATA/uv",
+				"$APPDATA/uv",
+				"~/miniforge3",
+				"$LOCALAPPDATA/npm-cache",
+				"$LOCALAPPDATA/pnpm",
+				"$LOCALAPPDATA/Yarn",
+				"$LOCALAPPDATA/fnm_multishells",
+				"$LOCALAPPDATA/Microsoft/VSApplicationInsights",
+				"$LOCALAPPDATA/Microsoft/Windows/INetCache",
+				"$PROGRAMDATA/Microsoft/NetFramework/BreadcrumbStore",
+				"$LOCALAPPDATA/NuGet",
+				"~/.templateengine",
+				"~/.matplotlib",
+				"$LOCALAPPDATA/Packages/PythonSoftwareFoundation.Python..asterisk..",
+				"$PROGRAMFILES/WindowsApps/PythonSoftwareFoundation.Python..asterisk..",
+				"$LOCALAPPDATA/Microsoft/PowerShell",
+				"$LOCALAPPDATA/Microsoft/Windows/PowerShell",
+				"$PATH_flutter_2",
+				"$APPDATA/.dart-tool",
+				"$APPDATA/.flutter",
+				"$USERPROFILE/AppData/Local/Temp",
+				"$USERPROFILE/AppData/LocalLow/Temp",
+				"/opt/homebrew",
+				"~/.Trash"
+			],
+			"sandboxROList": [
+				"$WORKSPACE_FOLDER/.vscode",
+				"$WORKSPACE_FOLDER/.trae/mcp.json"
+			],
+			"commandRedList": [
+				"rm",
+				"delete",
+				"unlink",
+				"shred",
+				"del",
+				"erase",
+				"rd",
+				"rmdir",
+				"ri",
+				"Remove-Item",
+				"/find\\s.*-delete\\b/i",
+				"/\\[System\\.IO\\.\\w+\\]::Delete\\(.*\\)/i",
+				"/git\\s.*(-f|--hard|--fd|--force|-D|-d|--delete)\\b/i",
+				"/git\\s.*(filter-branch|filter-repo|rebase)\\b/i",
+				"/(mysql[_\\-A-Za-z0-9]*|mariadb[_\\-A-Za-z0-9]*|psql|pg_[_\\-A-Za-z0-9]*|sqlplus|sqlcmd|mssql-cli|mongo[_\\-A-Za-z0-9]*|redis-cli|hbase|cqlsh)\\s+.*(alter|delete|drop|truncate|remove|del|destroy|purge|clear|flush|unlink|flushdb|flushall|hdel|srem|zrem).*/i",
+				"dd",
+				"truncate",
+				"mv",
+				"copy",
+				"xcopy",
+				"cpi",
+				"copy-item",
+				"mi",
+				"move",
+				"move-item",
+				"Set-Content",
+				"Out-File",
+				"/curl\\s.*\\|\\s*(bash|sh|zsh)/i",
+				"/wget\\s.*\\|\\s*(bash|sh|zsh)/i",
+				"/sudo\\s+(rm|chmod|chown|mkfs|dd|shred)/i",
+				"kill",
+				"killall",
+				"pkill",
+				"chown",
+				"chmod",
+				"/mkfs.\\w+\\b/"
+			],
+			"sandboxNetworkControlDocsUrl": "https://docs.trae.cn/ide/sandbox",
+			"sandboxUnavailableTips": {
+				"unavailable": {
+					"title": "icd.ai.settings.autoRun.sandbox_unavailable.unavailable.title",
+					"description": "icd.ai.settings.autoRun.sandbox_unavailable.unavailable.description",
+					"docsUrl": "https://docs.trae.cn/ide/sandbox"
+				},
+				"to_recovery": {
+					"title": "icd.ai.settings.autoRun.sandbox_unavailable.to_recovery.title",
+					"description": "icd.ai.settings.autoRun.sandbox_unavailable.to_recovery.description",
+					"docsUrl": "https://docs.trae.cn/ide/sandbox"
+				},
+				"to_recovery/user_manual_recovery_kernel": {
+					"title": "icd.ai.settings.autoRun.sandbox_unavailable.to_recovery/user_manual_recovery_kernel.title",
+					"description": "icd.ai.settings.autoRun.sandbox_unavailable.to_recovery/user_manual_recovery_kernel.description",
+					"docsUrl": "https://docs.trae.cn/ide/sandbox"
+				},
+				"to_recovery/auto_recovery_needs_privilege": {
+					"title": "icd.ai.settings.autoRun.sandbox_unavailable.to_recovery/auto_recovery_needs_privilege.title",
+					"description": "icd.ai.settings.autoRun.sandbox_unavailable.to_recovery/auto_recovery_needs_privilege.description",
+					"docsUrl": "https://docs.trae.cn/ide/sandbox"
+				},
+				"to_recovery/auto_recovery_none_privilege": {
+					"title": "icd.ai.settings.autoRun.sandbox_unavailable.to_recovery/auto_recovery_none_privilege.title",
+					"description": "icd.ai.settings.autoRun.sandbox_unavailable.to_recovery/auto_recovery_none_privilege.description",
+					"docsUrl": "https://docs.trae.cn/ide/sandbox"
+				}
+			}
+		},
+		"commercialConfig": {
+			"upgradeCta": {
+				"freshmanPrice": 9.9,
+				"freshmanDiscount": 6,
+				"weeklyPassPrice": 19.9
+			}
+		},
+		"toolAutoApprove": {
+			"visible": false,
+			"default": "auto",
+			"mode": "guardian"
+		},
+		"hubConfig": {
+			"appId": {
+				"TRAE": 1030602,
+				"SOLO": 787976
+			},
+			"fpId": {
+				"TRAE": 1458,
+				"SOLO": 420
+			},
+			"serviceId": 33555672,
+			"appKey": {
+				"TRAE": "aa5ac4bc58edd98b3da74c30e040d3b1",
+				"SOLO": "2eb730eefff567bc66454d914f83b9dc"
+			},
+			"maxWsReconnectAttempts": 3,
+			"wsReconnectDelaySecs": 1,
+			"defaultEmptyFlushCount": 50,
+			"pollIntervalMs": 3000,
+			"flushIntervalMs": 1000,
+			"flushCountThreshold": 5,
+			"wsMsgSizeThreshold": 1024000,
+			"pushSync": true,
+			"pushConversationSize": 100,
+			"pushMessageSize": 100,
+			"syncSessionChunkSize": 20,
+			"maxSentMessageCache": 10000
+		},
+		"mcpImageUnderstanding": {
+			"enabled": false
+		},
+		"exportResources": {
+			"htmlPpt": {
+				"domToPptxScriptUrls": [
+					"https://unpkg.byted-static.com/dom-to-pptx/2.0.3/dist/dom-to-pptx.bundle.js",
+					"https://sf-unpkg.tiktokcdn.com/obj/unpkg-va/dom-to-pptx/2.0.3/dist/dom-to-pptx.bundle.js"
+				],
+				"html2CanvasScriptUrls": [
+					"https://unpkg.byted-static.com/html2canvas/1.4.1/dist/html2canvas.min.js",
+					"https://sf-unpkg.tiktokcdn.com/obj/unpkg-va/html2canvas/1.4.1/dist/html2canvas.min.js"
+				]
+			}
+		}
+	},
+	"__iCube_app_tenant_overrides": {
+		"bytedance": {
+			"hubConfig": {
+				"appId": {
+					"TRAE": 1030603,
+					"SOLO": 1017094
+				},
+				"fpId": {
+					"TRAE": 1458,
+					"SOLO": 1458
+				},
+				"serviceId": 33555715,
+				"appKey": {
+					"TRAE": "aa5ac4bc58edd98b3da74c30e040d3b1",
+					"SOLO": "2eb730eefff567bc66454d914f83b9dc"
+				}
+			}
+		}
+	},
+	"commit": "871bca3bb55e7a37af74c1eef2a9696f29aa7b26",
+	"buildId": "1241939227906",
+	"buildBranch": "release_desktop_yoma_win32_cn",
+	"marketPackage": false,
+	"migration": {
+		"protocol": "v1"
+	},
+	"date": "2026-10-16T05:04:49.269Z",
+	"checksums": {
+		"vs/base/parts/sandbox/electron-browser/preload.js": "Dt3rdrRNec1KFQ6BqxRK4narjsfzIGWPcFYIKi++FGA",
+		"vs/base/parts/sandbox/electron-browser/preload-webview.js": "lijdUJXFFYGr81yrgWADaJ9KGmRSxlwAGrf473lJJoQ",
+		"vs/platform/browserView/common/preload-browserView.js": "7UhM7BKeDsoTjW2kWk/CaCNcD1Kn+0jjhpQhRgmzbXg",
+		"vs/platform/iCubeFloatingChat/electron-main/media/floatingButton-preload.js": "EGU4d9POyycfLXwLTG6ZJEVXS3SH6uyI5v5TgtG0IRQ",
+		"vs/workbench/workbench.desktop.main.js": "amATs/0SgI1wwQloR2Pr6ymWcvSe9wN0CshswNFjMwQ",
+		"vs/workbench/workbench.desktop.main.css": "5K0nNZyw4vjllsIc1RWTBENq6kHzIAWSzwKn5TGxPsA",
+		"vs/workbench/workbench.desktop.main.solo-lite.js": "KZghZyo7SQQCcbLqnVnHQCCl+BUAo+xFdoZu8WXPg9w",
+		"vs/workbench/workbench.desktop.main.solo-lite.css": "Jmcj4RQAUUi/FvYwDjcD4Uy8WN60CHeXt11Eou1YRpA",
+		"vs/workbench/workbench.desktop.main.solo-lite-slim.js": "XDcRmTcMR/WCzRl+sHN4ceZg/OE7G5Cw7zDkz5+bwA4",
+		"vs/workbench/workbench.desktop.main.solo-lite-slim.css": "Bv08kr4xDL+LVurRJrpKU8HPuZ0/H8EbkbrH0CKXvao",
+		"vs/code/electron-browser/workbench/workbench.html": "vISWPVH6H7GjO0rGiX6jTqEhJK0ls8B8TNAHXvjc8xk",
+		"vs/code/electron-browser/workbench/workbench.js": "CxXAKdS+p2WnTBEE6K9EJo3p3pCXE6fRAH+/Rjv66NU",
+		"vs/code/electron-browser/floatingChat/floatingChat.html": "1Fh30GOWuf/K5e0FAuK/IPoaawGGaZJlwoXJOyi1PgA",
+		"vs/code/electron-browser/floatingChat/workbench.js": "WgMRMiADnct4POpXykIQAy2M80ZiMwoKxR9ZHRrKlco",
+		"vs/code/electron-browser/setup/setup.html": "j2D70keK1BBdrZFa6bMG0OtAh7WffKH06EtR8nyhyz8",
+		"vs/code/electron-browser/setup/setup.js": "KC0KQUoXB02hM4cYrwSvWaIF5ysq/YfABGRXxJZFL50",
+		"vs/code/electron-browser/solo/solo-lite.html": "flOwjN2NBWbjq+71TKQXxKcDJxjrENsJc2IRleXgyjk",
+		"vs/code/electron-browser/solo/arch-mismatch.html": "Q8VDVKtEQvF/BmwtGdFi92AyMgF1F7GXuijnJjKuT0Q",
+		"vs/code/electron-browser/solo/workbench.js": "edL9N1Y5vDOg02nHAZJhcUqGdP62mT/vu1mxdXKvCwo",
+		"vs/workbench/api/node/extensionHostProcess.js": "EJ+nXXtcbQOqjod1dHELfxZ/I4Ixa/Ocj6KqaMVUD4w",
+		"vs/code/electron-browser/icubeProcessExplorer/icubeProcessExplorer.js": "pEiUGQDhLHgxQ3lZ8F9KHW6CeT43Eu47SL6Tcugt/W8",
+		"vs/code/electron-browser/icubeProcessExplorer/icubeProcessExplorer.html": "ascaaZdfrHUuV6fqk61+ANSrhoHjPZEKR8CvxMD7xjE",
+		"vs/code/electron-browser/migration/migration.html": "Lw4uG+Z86HOmpz0K6S4P7bWIcEchmsf4fiW/ah3k8VY",
+		"vs/code/electron-browser/traeCodeMigration/traeCodeMigration.html": "6BTfJUB4ALI7RzuPGETA2EOvAPyTVhIqR0oJrgsTjrg",
+		"vs/code/electron-browser/scenes/desktop.config.js": "nBx+cQ7U7xDu6FXPS4zIH0yyBCM/qONweP+8859TV4g"
+	},
+	"version": "1.107.1",
+	"vscodeVersion": "1.107.1",
+	"target": "user"
+}

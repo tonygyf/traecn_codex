@@ -1,0 +1,31 @@
+{
+  "name": "trae-codex-layout-keeper",
+  "publisher": "local-style",
+  "displayName": "Trae Codex 布局保持",
+  "description": "启动时检查并恢复兼容版本中的 Codex 右侧 AI 栏，不改 Trae 自动更新设置。",
+  "version": "1.0.0",
+  "engines": {"vscode": "^1.96.2"},
+  "main": "./extension.js",
+  "extensionKind": ["ui"],
+  "activationEvents": ["onStartupFinished"],
+  "capabilities": {"untrustedWorkspaces": {"supported": true}, "virtualWorkspaces": true},
+  "categories": ["Other"],
+  "license": "MIT",
+  "contributes": {
+    "configuration": {
+      "title": "Trae Codex 布局保持",
+      "properties": {
+        "traeCodexLayout.keepAfterUpdate": {
+          "type": "boolean", "default": true, "scope": "application",
+          "markdownDescription": "在 Trae 启动后检查 Codex 右侧栏兼容。新版代码结构兼容且资源校验通过时，自动备份并恢复布局补丁；需要完整重启后生效。不修改或禁用 Trae 自动更新。关闭后停止自动修复，现有补丁保留至升级或手动还原。未知版本会停止写入并提示。"
+        }
+      }
+    },
+    "commands": [
+      {"command": "traeCodexLayout.check", "title": "检查布局保持状态", "category": "Trae Codex"},
+      {"command": "traeCodexLayout.logs", "title": "查看布局保持日志", "category": "Trae Codex"},
+      {"command": "traeCodexLayout.backups", "title": "打开自动修复备份目录", "category": "Trae Codex"},
+      {"command": "traeCodexLayout.restore", "title": "关闭保持并还原最近一次自动修复", "category": "Trae Codex"}
+    ]
+  }
+}

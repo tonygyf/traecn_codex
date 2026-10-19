@@ -1,0 +1,12 @@
+{
+    "workbench.colorTheme": "Light Modern",
+    "terminal.integrated.env.windows": {
+
+        "PATH": "D:\\typer\\nodejs(lts);${env:PATH}"
+    },
+    "git.openRepositoryInParentFolders": "never",
+    "window.density.layout": "compact",
+    "remote.SSH.remotePlatform": {
+        "10.8.176.211": "linux"
+    }
+}

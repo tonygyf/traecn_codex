@@ -1,0 +1,3 @@
+PASS: simulated update repair, variable-name changes, syntax validation, checksum rejection, native/unknown implementation guards, idempotency, exact rollback, disabled setting, startup repair, lock cleanup.
+PASS: real Trae activation state protected; keepAfterUpdate enabled; previous settings and current app files unchanged by keeper installation.
+Real future Trae upgrade has not occurred; first repair may require one extra full restart.

@@ -1,0 +1,1 @@
+Local personal adaptation of assets from the installed Trae CN. Original theme manifests declare MIT; Seti icon assets originate from Microsoft VS Code and jesseweed/seti-ui. Keep original asset notices. No extension runtime code is included.

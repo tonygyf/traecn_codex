@@ -1,0 +1,15 @@
+{
+  "trae.floatingChat.buttonIcon": "ball",
+  "trae.network.proxy.effectiveMode": "system",
+  "trae.floatingChat.enabled": false,
+  "window.autoDetectColorScheme": false,
+  "workbench.colorTheme": "Deep Blue",
+  "terminal.integrated.env.windows": {
+    "PATH": "D:\\typer\\nodejs(lts);${env:PATH}"
+  },
+  "git.openRepositoryInParentFolders": "never",
+  "window.density.layout": "compact",
+  "chatgpt.localeOverride": "zh-CN",
+  "chatgpt.reviewDelivery": "inline",
+  "window.density.editorTabHeight": "compact"
+}

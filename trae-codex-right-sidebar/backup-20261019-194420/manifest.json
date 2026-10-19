@@ -1,0 +1,21 @@
+{
+  "app": "C:\\Users\\15634\\AppData\\Local\\Programs\\Trae CN\\resources\\app",
+  "version": "1.107.1",
+  "commit": "871bca3bb55e7a37af74c1eef2a9696f29aa7b26",
+  "files": [
+    {
+      "relativePath": "out/vs/workbench/workbench.desktop.main.js",
+      "beforeSha256": "6a6013b3fd12808d70c109684763ebeb299672f49ef703740ac86cc0d1633304",
+      "afterSha256": "da8edcb91b061b1891d5050c363e4aa284cf6444fa368fc39e1460c5ea5fc44f",
+      "checksumKey": "vs/workbench/workbench.desktop.main.js"
+    },
+    {
+      "relativePath": "out/vs/workbench/workbench.desktop.main.solo-lite.js",
+      "beforeSha256": "299821672a3b49040271b2ea9d59c74020a5f81500a3ec4576866ef165cf83dc",
+      "afterSha256": "099a7f626715a3d71ea2389f2c2169f604d5566ca58886ae51327049ebe3b752",
+      "checksumKey": "vs/workbench/workbench.desktop.main.solo-lite.js"
+    }
+  ],
+  "productBeforeSha256": "624918092ade03b1d29e4f4f6909949ef1e649f4ac16f13bc88d0ebaa9f9bb68",
+  "productAfterSha256": "32a0b286cb8cf55535766f5ad41e97b4a6890a4acd5c26ce6e11dda150480007"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "trae-local-themes",
+  "displayName": "Trae Local Themes",
+  "description": "Local adaptation of the themes and file icons from your installed Trae CN.",
+  "version": "1.0.0",
+  "publisher": "local-style",
+  "license": "SEE LICENSE IN NOTICE.md",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "id": "Trae Deep Blue",
+        "label": "Trae Deep Blue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/deep-blue.json"
+      },
+      {
+        "id": "Trae Dark",
+        "label": "Trae Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark.json"
+      },
+      {
+        "id": "Trae Light",
+        "label": "Trae Light",
+        "uiTheme": "vs",
+        "path": "./themes/light.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "trae-local-icons",
+        "label": "Trae File Icons",
+        "path": "./icons/icube-seti-icon-theme.json"
+      }
+    ]
+  }
+}
